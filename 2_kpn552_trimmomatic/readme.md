@@ -1,1 +1,1 @@
-Running FastQC tool on raw reads
+Run Trimmomatic on raw reads
