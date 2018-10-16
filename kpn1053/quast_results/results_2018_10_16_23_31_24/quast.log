@@ -1,0 +1,94 @@
+/home/akapanina/bioinf/quast-5.0.0/quast.py -r /home/akapanina/bioinf/Klebsiella/reference/GCF_000240185.1_ASM24018v2_genomic.fna /home/akapanina/bioinf/Klebsiella/kpn1053/spades_output/contigs.fasta
+
+Version: 5.0.0
+
+System information:
+  OS: Linux-4.15.0-36-generic-x86_64-with-Ubuntu-18.04-bionic (linux_64)
+  Python version: 2.7.15
+  CPUs number: 4
+
+Started: 2018-10-16 23:31:24
+
+Logging to /home/akapanina/bioinf/Klebsiella/kpn1053/quast_results/results_2018_10_16_23_31_24/quast.log
+NOTICE: Maximum number of threads is set to 1 (use --threads option to set it manually)
+
+CWD: /home/akapanina/bioinf/Klebsiella/kpn1053
+Main parameters: 
+  MODE: default, threads: 1, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+WARNING: Can't draw plots: python-matplotlib is missing or corrupted.
+
+Reference:
+  /home/akapanina/bioinf/Klebsiella/reference/GCF_000240185.1_ASM24018v2_genomic.fna ==> GCF_000240185.1_ASM24018v2_genomic
+
+Contigs:
+  Pre-processing...
+  /home/akapanina/bioinf/Klebsiella/kpn1053/spades_output/contigs.fasta ==> contigs
+
+2018-10-16 23:31:24
+Running Basic statistics processor...
+  Reference genome:
+    GCF_000240185.1_ASM24018v2_genomic.fna, length = 5682322, num fragments = 7, GC % = 57.12
+  Contig files: 
+    contigs
+  Calculating N50 and L50...
+    contigs, N50 = 109651, L50 = 17, Total length = 5560612, GC % = 57.11, # N's per 100 kbp =  0.00
+Done.
+
+2018-10-16 23:31:25
+Running Contig analyzer...
+  contigs
+  Logging to files /home/akapanina/bioinf/Klebsiella/kpn1053/quast_results/results_2018_10_16_23_31_24/contigs_reports/contigs_report_contigs.stdout and contigs_report_contigs.stderr...
+  Aligning contigs to the reference
+  /home/akapanina/bioinf/quast-5.0.0/quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 \
+  --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N \
+  2 --cs -t 1 quast_results/results_2018_10_16_23_31_24/quast_corrected_input/GCF_000240185.1_ASM24018v2_genomic.fna \
+  quast_results/results_2018_10_16_23_31_24/quast_corrected_input/contigs.fasta > \
+  quast_results/results_2018_10_16_23_31_24/contigs_reports/minimap_output/contigs.coords_tmp \
+  2>> quast_results/results_2018_10_16_23_31_24/contigs_reports/contigs_report_contigs.stderr
+  Analysis is finished.
+
+  Creating total report...
+    saved to /home/akapanina/bioinf/Klebsiella/kpn1053/quast_results/results_2018_10_16_23_31_24/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /home/akapanina/bioinf/Klebsiella/kpn1053/quast_results/results_2018_10_16_23_31_24/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /home/akapanina/bioinf/Klebsiella/kpn1053/quast_results/results_2018_10_16_23_31_24/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+Done.
+
+2018-10-16 23:31:27
+Running NA-NGA calculation...
+  contigs, Largest alignment = 204258, NA50 = 59585, NGA50 = 56784, LA50 = 29, LGA50 = 30
+Done.
+
+2018-10-16 23:31:27
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  contigs
+  Analysis is finished.
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2018-10-16 23:31:29
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 1: Creating Icarus viewers...
+Done
+
+2018-10-16 23:31:29
+RESULTS:
+  Text versions of total report are saved to /home/akapanina/bioinf/Klebsiella/kpn1053/quast_results/results_2018_10_16_23_31_24/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/akapanina/bioinf/Klebsiella/kpn1053/quast_results/results_2018_10_16_23_31_24/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/akapanina/bioinf/Klebsiella/kpn1053/quast_results/results_2018_10_16_23_31_24/report.html
+  Icarus (contig browser) is saved to /home/akapanina/bioinf/Klebsiella/kpn1053/quast_results/results_2018_10_16_23_31_24/icarus.html
+  Log is saved to /home/akapanina/bioinf/Klebsiella/kpn1053/quast_results/results_2018_10_16_23_31_24/quast.log
+
+Finished: 2018-10-16 23:31:29
+Elapsed time: 0:00:05.194362
+NOTICEs: 4; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

@@ -1,0 +1,1790 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [NC_016847.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS5__complete_sequence]
+	Loaded [NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence]
+	Loaded [NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence]
+	Loaded [NC_016840.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS4__complete_sequence]
+	Loaded [NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence]
+	Loaded [NC_016841.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS6__complete_sequence]
+	Loaded [NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome]
+	Total Regions: 7
+	Total Region Length: 5682322
+Analyzing contigs...
+CONTIG: NODE_1_length_269602_cov_16.946155 (269602bp)
+Best alignment score: 118856.6 (LEN: 119574, IDY: 99.40), Total number of alignments: 11
+			Looking for the best set of alignments (out of 11 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1080037 1080188 | 24257 24409 | 152 153 | 96.08 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_1_length_269602_cov_16.946155
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 246537.9, number of alignments: 10, unaligned bases: 20052
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 249550 out of 269602 non-N bases (92.56%))
+			Real Alignment 1: 1364793 1388966 | 116 24291 | 24174 24176 | 99.41 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_1_length_269602_cov_16.946155
+			  Gap between these two alignments (local misassembly). Inconsistency = 301
+			Real Alignment 2: 1389351 1397712 | 24375 32737 | 8362 8363 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_1_length_269602_cov_16.946155
+			  Gap between these two alignments (local misassembly). Inconsistency = -709
+			Real Alignment 3: 1397788 1412874 | 33522 48609 | 15087 15088 | 99.01 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_1_length_269602_cov_16.946155
+			  Extensive misassembly (relocation, inconsistency = 9302) between these two alignments
+			Excluding internal overlap of size 4 between Alignment 4 and 5: 1449268 1451290 | 74257 76279 | 2023 2023 --> 1449272 1451290 | 74261 76279 | 2019 2019
+			Real Alignment 4: 1422236 1447822 | 48669 74260 | 25587 25592 | 99.32 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_1_length_269602_cov_16.946155
+			  Extensive misassembly (relocation, inconsistency = 1449) between these two alignments
+			Real Alignment 5: 1449272 1451290 | 74261 76279 | 2019 2019 | 99.41 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_1_length_269602_cov_16.946155
+			  Extensive misassembly (relocation, inconsistency = -7251) between these two alignments
+			Excluding internal overlap of size 92 between Alignment 6 and 7: 1451404 1460922 | 83644 93162 | 9519 9519 --> 1451404 1460829 | 83644 93070 | 9426 9427
+			Real Alignment 6: 1451404 1460829 | 83644 93070 | 9426 9427 | 99.02 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_1_length_269602_cov_16.946155
+			  Gap between these two alignments (local misassembly). Inconsistency = 489
+			Real Alignment 7: 1461319 1477221 | 93071 108974 | 15903 15904 | 99.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_1_length_269602_cov_16.946155
+			  Gap between these two alignments (local misassembly). Inconsistency = -214
+			Excluding internal overlap of size 104 between Alignment 8 and 9: 1488655 1501334 | 120622 133302 | 12680 12681 --> 1488655 1501231 | 120622 133198 | 12577 12577
+			Real Alignment 8: 1488655 1501231 | 120622 133198 | 12577 12577 | 98.87 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_1_length_269602_cov_16.946155
+			  Gap between these two alignments (local misassembly). Inconsistency = 117
+			Excluding internal overlap of size 4 between Alignment 9 and 10: 1501349 1518185 | 133199 150032 | 16837 16834 --> 1501349 1518181 | 133199 150028 | 16833 16830
+			Real Alignment 9: 1501349 1518181 | 133199 150028 | 16833 16830 | 98.91 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_1_length_269602_cov_16.946155
+			  Extensive misassembly (relocation, inconsistency = 1449) between these two alignments
+			Real Alignment 10: 1519631 1639200 | 150029 269602 | 119570 119574 | 99.4 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_1_length_269602_cov_16.946155
+		Unaligned bases: 20052
+
+CONTIG: NODE_2_length_232541_cov_17.652142 (232541bp)
+Best alignment score: 105735.4 (LEN: 106395, IDY: 99.38), Total number of alignments: 5
+			Looking for the best set of alignments (out of 5 total alignments)
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 230780.0, number of alignments: 5, unaligned bases: 62
+		This contig is misassembled.
+			Real Alignment 1: 5078880 5106819 | 27939 1 | 27940 27939 | 99.52 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_2_length_232541_cov_17.652142
+			  Gap between these two alignments (local misassembly). Inconsistency = -167
+			Excluding internal overlap of size 3 between Alignment 2 and 3: 5078855 5078984 | 28131 28002 | 130 130 --> 5078858 5078984 | 28128 28002 | 127 127
+			Real Alignment 2: 5078858 5078984 | 28128 28002 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_2_length_232541_cov_17.652142
+			  Extensive misassembly (relocation, inconsistency = 1448) between these two alignments
+			Excluding internal overlap of size 31 between Alignment 3 and 4: 4979471 4979749 | 126301 126023 | 279 279 --> 4979471 4979718 | 126301 126054 | 248 248
+			Real Alignment 3: 4979471 5077409 | 126053 28129 | 97939 97925 | 99.45 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_2_length_232541_cov_17.652142
+			  Overlap between these two alignments (local misassembly). Inconsistency = -248
+			Excluding internal overlap of size 155 between Alignment 4 and 5: 4979471 4979718 | 126301 126054 | 248 248 --> 4979626 4979718 | 126146 126054 | 93 93
+			Real Alignment 4: 4979626 4979718 | 126146 126054 | 93 93 | 96.06 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_2_length_232541_cov_17.652142
+			  Overlap between these two alignments (local misassembly). Inconsistency = -124
+			Real Alignment 5: 4873353 4979749 | 232541 126147 | 106397 106395 | 99.38 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_2_length_232541_cov_17.652142
+
+CONTIG: NODE_3_length_222243_cov_17.079314 (222243bp)
+Best alignment score: 150570.4 (LEN: 151327, IDY: 99.50), Total number of alignments: 12
+			Looking for the best set of alignments (out of 12 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 4514421 4514547 | 1 127 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_3_length_222243_cov_17.079314
+		Skipping redundant alignment 5151722 5151848 | 127 1 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_3_length_222243_cov_17.079314
+		Skipping redundant alignment 30784 30910 | 127 1 | 127 127 | 100.0 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_3_length_222243_cov_17.079314
+		Skipping redundant alignment 84335 84461 | 1 127 | 127 127 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_3_length_222243_cov_17.079314
+		Skipping redundant alignment 1315115 1315241 | 127 1 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_3_length_222243_cov_17.079314
+		Skipping redundant alignment 586952 587079 | 1 128 | 128 128 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_3_length_222243_cov_17.079314
+		Skipping redundant alignment 4298209 4298336 | 128 1 | 128 128 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_3_length_222243_cov_17.079314
+		Skipping redundant alignment 904954 905082 | 1 129 | 129 129 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_3_length_222243_cov_17.079314
+		Skipping redundant alignment 3248945 3249073 | 1 129 | 129 129 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_3_length_222243_cov_17.079314
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 212164.8, number of alignments: 3, unaligned bases: 8619
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 213624 out of 222243 non-N bases (96.12%))
+			Real Alignment 1: 3804474 3833346 | 30198 1324 | 28873 28875 | 99.65 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_3_length_222243_cov_17.079314
+			  Extensive misassembly (relocation, inconsistency = -7118) between these two alignments
+			Real Alignment 2: 3653020 3804335 | 188781 37455 | 151316 151327 | 99.5 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_3_length_222243_cov_17.079314
+			  Gap between these two alignments (local misassembly). Inconsistency = -119
+			Real Alignment 3: 3619681 3653098 | 222243 188822 | 33418 33422 | 99.02 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_3_length_222243_cov_17.079314
+		Unaligned bases: 8619
+
+CONTIG: NODE_4_length_211058_cov_17.438670 (211058bp)
+Best alignment score: 111634.4 (LEN: 112139, IDY: 99.55), Total number of alignments: 5
+			Looking for the best set of alignments (out of 5 total alignments)
+			The best set is below. Score: 205754.3, number of alignments: 5, unaligned bases: 3753
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 207305 out of 211058 non-N bases (98.22%))
+			Real Alignment 1: 4436100 4458310 | 22210 1 | 22211 22210 | 99.54 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_4_length_211058_cov_17.438670
+			  Gap between these two alignments (local misassembly). Inconsistency = -760
+			Real Alignment 2: 4411418 4436015 | 47649 23055 | 24598 24595 | 98.99 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_4_length_211058_cov_17.438670
+			  Gap between these two alignments (local misassembly). Inconsistency = -420
+			Real Alignment 3: 4299268 4411416 | 160209 48071 | 112149 112139 | 99.55 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_4_length_211058_cov_17.438670
+			  Extensive misassembly (relocation, inconsistency = -1430) between these two alignments
+			Excluding internal overlap of size 9 between Alignment 4 and 5: 4249709 4261052 | 211058 199712 | 11344 11347 --> 4249709 4261043 | 211058 199721 | 11335 11338
+			Real Alignment 4: 4261175 4298209 | 199720 162698 | 37035 37023 | 99.08 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_4_length_211058_cov_17.438670
+			  Gap between these two alignments (local misassembly). Inconsistency = 131
+			Real Alignment 5: 4249709 4261043 | 211058 199721 | 11335 11338 | 99.75 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_4_length_211058_cov_17.438670
+		Unaligned bases: 3753
+
+CONTIG: NODE_5_length_210444_cov_16.767337 (210444bp)
+Best alignment score: 52794.3 (LEN: 53333, IDY: 98.99), Total number of alignments: 17
+			Looking for the best set of alignments (out of 17 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 5169583 5169705 | 127 5 | 123 123 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_5_length_210444_cov_16.767337
+		Skipping redundant alignment 2339260 2339378 | 96324 96442 | 119 119 | 97.48 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_5_length_210444_cov_16.767337
+		Skipping redundant alignment 2339631 2339742 | 96692 96803 | 112 112 | 95.54 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_5_length_210444_cov_16.767337
+		Skipping redundant alignment 2340463 2340647 | 97524 97708 | 185 185 | 96.76 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_5_length_210444_cov_16.767337
+		Skipping redundant alignment 1461073 1461272 | 166465 166266 | 200 200 | 95.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_5_length_210444_cov_16.767337
+		Skipping redundant alignment 1080311 1080516 | 166471 166266 | 206 206 | 95.15 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_5_length_210444_cov_16.767337
+		Skipping redundant alignment 1684538 1684745 | 166474 166267 | 208 208 | 95.67 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_5_length_210444_cov_16.767337
+		Skipping redundant alignment 2483289 2483517 | 166476 166249 | 229 228 | 96.07 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_5_length_210444_cov_16.767337
+		Skipping redundant alignment 5224930 5225158 | 166476 166249 | 229 228 | 95.2 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_5_length_210444_cov_16.767337
+		Skipping redundant alignment 563659 563965 | 166221 166526 | 307 306 | 95.77 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_5_length_210444_cov_16.767337
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 150453.8, number of alignments: 7, unaligned bases: 57589
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 152855 out of 210444 non-N bases (72.63%))
+			Excluding internal overlap of size 13 between Alignment 1 and 2: 2325549 2340410 | 83212 98069 | 14862 14858 --> 2325562 2340410 | 83225 98069 | 14849 14845
+			Real Alignment 1: 2244735 2280709 | 47254 83224 | 35975 35971 | 99.05 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_5_length_210444_cov_16.767337
+			  Extensive misassembly (relocation, inconsistency = 44852) between these two alignments
+			Excluding internal overlap of size 190 between Alignment 2 and 3: 2340819 2342000 | 97880 99061 | 1182 1182 --> 2341009 2342000 | 98070 99061 | 992 992
+			Real Alignment 2: 2325562 2340410 | 83225 98069 | 14849 14845 | 97.6 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_5_length_210444_cov_16.767337
+			  Gap between these two alignments (local misassembly). Inconsistency = 598
+			Real Alignment 3: 2341009 2342000 | 98070 99061 | 992 992 | 96.28 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_5_length_210444_cov_16.767337
+			  Indel (<= 5bp) between these two alignments: deletion of length 1; 0 mismatches (number of Ns: 0)
+			Real Alignment 4: 2342002 2342157 | 99062 99217 | 156 156 | 96.79 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_5_length_210444_cov_16.767337
+			  Gap between these two alignments (local misassembly). Inconsistency = 0
+			Real Alignment 5: 2342360 2395727 | 99420 152752 | 53368 53333 | 98.99 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_5_length_210444_cov_16.767337
+			  Extensive misassembly (relocation, inconsistency = -9961) between these two alignments
+			Real Alignment 6: 2395743 2399265 | 162729 166251 | 3523 3523 | 97.93 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_5_length_210444_cov_16.767337
+			  Gap between these two alignments (local misassembly). Inconsistency = -164
+			Real Alignment 7: 2399260 2443270 | 166410 210444 | 44011 44035 | 98.93 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_5_length_210444_cov_16.767337
+		Unaligned bases: 57589
+
+CONTIG: NODE_6_length_190098_cov_16.662501 (190098bp)
+Best alignment score: 185622.9 (LEN: 186687, IDY: 99.43), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 185622.9, number of alignments: 1, unaligned bases: 3411
+		This contig is partially unaligned. (Aligned 186687 out of 190098 non-N bases (98.21%))
+		Alignment: 3833465 4020152 | 3412 190098 | 186688 186687 | 99.43 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_6_length_190098_cov_16.662501
+		Unaligned bases: 1 to 3411 (3411)
+
+CONTIG: NODE_7_length_174093_cov_15.989797 (174093bp)
+Best alignment score: 50320.4 (LEN: 50558, IDY: 99.53), Total number of alignments: 7
+			Looking for the best set of alignments (out of 7 total alignments)
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 157812.3, number of alignments: 7, unaligned bases: 13962
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 160131 out of 174093 non-N bases (91.98%))
+			Real Alignment 1: 2067803 2116441 | 126 48780 | 48639 48655 | 99.44 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_7_length_174093_cov_15.989797
+			  Extensive misassembly (relocation, inconsistency = 1910) between these two alignments
+			Real Alignment 2: 2118352 2136585 | 48781 67015 | 18234 18235 | 99.41 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_7_length_174093_cov_15.989797
+			  Extensive misassembly (relocation, inconsistency = 8938) between these two alignments
+			Excluding internal overlap of size 3 between Alignment 3 and 4: 2145567 2150023 | 67059 71515 | 4457 4457 --> 2145567 2150020 | 67059 71512 | 4454 4454
+			Real Alignment 3: 2145567 2150020 | 67059 71512 | 4454 4454 | 99.51 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_7_length_174093_cov_15.989797
+			  Extensive misassembly (relocation, inconsistency = 1448) between these two alignments
+			Real Alignment 4: 2151469 2202019 | 71513 122070 | 50551 50558 | 99.53 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_7_length_174093_cov_15.989797
+			  Extensive misassembly (relocation, inconsistency = 4946) between these two alignments
+			Real Alignment 5: 2206971 2217526 | 122076 132630 | 10556 10555 | 99.49 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_7_length_174093_cov_15.989797
+			  Extensive misassembly (relocation, inconsistency = -6442) between these two alignments
+			Real Alignment 6: 2217500 2244750 | 139046 166299 | 27251 27254 | 99.61 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_7_length_174093_cov_15.989797
+			  Extensive misassembly (relocation, inconsistency = 2917807) between these two alignments
+			Real Alignment 7: 5169932 5170351 | 174093 173674 | 420 420 | 95.95 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_7_length_174093_cov_15.989797
+		Unaligned bases: 13962
+
+CONTIG: NODE_8_length_155921_cov_17.014333 (155921bp)
+Best alignment score: 126928.6 (LEN: 127528, IDY: 99.53), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 154264.4, number of alignments: 2, unaligned bases: 807
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 155114 out of 155921 non-N bases (99.48%))
+			Real Alignment 1: 1113310 1240851 | 127528 1 | 127542 127528 | 99.53 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_8_length_155921_cov_17.014333
+			  Gap between these two alignments (local misassembly). Inconsistency = -599
+			Real Alignment 2: 1085519 1113101 | 155921 128336 | 27583 27586 | 99.18 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_8_length_155921_cov_17.014333
+		Unaligned bases: 807
+
+CONTIG: NODE_9_length_148182_cov_16.909973 (148182bp)
+Best alignment score: 78765.4 (LEN: 79042, IDY: 99.65), Total number of alignments: 6
+			Looking for the best set of alignments (out of 6 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 780165 780369 | 205 1 | 205 205 | 99.02 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_9_length_148182_cov_16.909973
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 145347.3, number of alignments: 5, unaligned bases: 1740
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 146442 out of 148182 non-N bases (98.83%))
+			Real Alignment 1: 4711368 4790418 | 79970 929 | 79051 79042 | 99.65 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_9_length_148182_cov_16.909973
+			  Extensive misassembly (relocation, inconsistency = 12645) between these two alignments
+			Excluding internal overlap of size 15 between Alignment 2 and 3: 4691779 4691909 | 87032 86901 | 131 132 --> 4691779 4691894 | 87032 86916 | 116 117
+			Real Alignment 2: 4691779 4698602 | 86915 80091 | 6824 6825 | 99.44 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_9_length_148182_cov_16.909973
+			  Overlap between these two alignments (local misassembly). Inconsistency = -116
+			Excluding internal overlap of size 15 between Alignment 3 and 4: 4691779 4691894 | 87032 86916 | 116 117 --> 4691794 4691894 | 87017 86916 | 101 102
+			Real Alignment 3: 4691794 4691894 | 87017 86916 | 101 102 | 98.48 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_9_length_148182_cov_16.909973
+			  Overlap between these two alignments (local misassembly). Inconsistency = -116
+			Excluding internal overlap of size 15 between Alignment 4 and 5: 4691779 4691909 | 87147 87018 | 131 130 --> 4691794 4691909 | 87132 87018 | 116 115
+			Real Alignment 4: 4691794 4691909 | 87132 87018 | 116 115 | 95.42 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_9_length_148182_cov_16.909973
+			  Overlap between these two alignments (local misassembly). Inconsistency = -116
+			Real Alignment 5: 4631545 4691909 | 147490 87133 | 60365 60358 | 99.29 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_9_length_148182_cov_16.909973
+		Unaligned bases: 1740
+
+CONTIG: NODE_10_length_142772_cov_16.613292 (142772bp)
+Best alignment score: 86263.1 (LEN: 86714, IDY: 99.48), Total number of alignments: 4
+			Looking for the best set of alignments (out of 4 total alignments)
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 126868.0, number of alignments: 4, unaligned bases: 14339
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 128433 out of 142772 non-N bases (89.96%))
+			Real Alignment 1: 693680 780369 | 86714 1 | 86690 86714 | 99.48 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_10_length_142772_cov_16.613292
+			  Extensive misassembly (relocation, inconsistency = 5117) between these two alignments
+			Real Alignment 2: 678544 688439 | 96734 86838 | 9896 9897 | 98.03 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_10_length_142772_cov_16.613292
+			  Extensive misassembly (relocation, inconsistency = -7859) between these two alignments
+			Real Alignment 3: 678431 678550 | 104706 104587 | 120 120 | 98.33 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_10_length_142772_cov_16.613292
+			  Gap between these two alignments (local misassembly). Inconsistency = -545
+			Real Alignment 4: 646661 678342 | 137041 105340 | 31682 31702 | 98.76 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_10_length_142772_cov_16.613292
+		Unaligned bases: 14339
+
+CONTIG: NODE_11_length_136894_cov_16.659669 (136894bp)
+Best alignment score: 68356.7 (LEN: 68901, IDY: 99.21), Total number of alignments: 5
+			Looking for the best set of alignments (out of 5 total alignments)
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 127865.5, number of alignments: 5, unaligned bases: 7600
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 129294 out of 136894 non-N bases (94.45%))
+			Real Alignment 1: 1763494 1769204 | 5710 1 | 5711 5710 | 99.53 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_11_length_136894_cov_16.659669
+			  Gap between these two alignments (local misassembly). Inconsistency = 279
+			Real Alignment 2: 1763086 1763163 | 5839 5762 | 78 78 | 98.72 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_11_length_136894_cov_16.659669
+			  Gap between these two alignments (local misassembly). Inconsistency = -162
+			Excluding internal overlap of size 13 between Alignment 3 and 4: 1743602 1763169 | 25484 5918 | 19568 19567 --> 1743615 1763169 | 25471 5918 | 19555 19554
+			Real Alignment 3: 1743615 1763169 | 25471 5918 | 19555 19554 | 99.38 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_11_length_136894_cov_16.659669
+			  Gap between these two alignments (local misassembly). Inconsistency = 377
+			Real Alignment 4: 1674251 1743237 | 94372 25472 | 68987 68901 | 99.21 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_11_length_136894_cov_16.659669
+			  Extensive misassembly (relocation, inconsistency = -7472) between these two alignments
+			Real Alignment 5: 1639265 1674251 | 136894 101844 | 34987 35051 | 98.84 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_11_length_136894_cov_16.659669
+		Unaligned bases: 7600
+
+CONTIG: NODE_12_length_136291_cov_16.348514 (136291bp)
+Best alignment score: 60953.4 (LEN: 61346, IDY: 99.36), Total number of alignments: 6
+			Looking for the best set of alignments (out of 6 total alignments)
+			The best set is below. Score: 129486.9, number of alignments: 6, unaligned bases: 4812
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 131479 out of 136291 non-N bases (96.47%))
+			Real Alignment 1: 2618434 2626680 | 8256 1 | 8247 8256 | 98.68 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_12_length_136291_cov_16.348514
+			  Gap between these two alignments (local misassembly). Inconsistency = -122
+			Real Alignment 2: 2596003 2618537 | 30808 8275 | 22535 22534 | 99.06 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_12_length_136291_cov_16.348514
+			  Gap between these two alignments (local misassembly). Inconsistency = 648
+			Real Alignment 3: 2579941 2595354 | 46223 30809 | 15414 15415 | 99.39 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_12_length_136291_cov_16.348514
+			  Extensive misassembly (relocation, inconsistency = 1397) between these two alignments
+			Excluding internal overlap of size 5 between Alignment 4 and 5: 2561964 2576041 | 62802 48726 | 14078 14077 --> 2561969 2576041 | 62797 48726 | 14073 14072
+			Real Alignment 4: 2561969 2576041 | 62797 48726 | 14073 14072 | 97.62 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_12_length_136291_cov_16.348514
+			  Extensive misassembly (relocation, inconsistency = 1661) between these two alignments
+			Real Alignment 5: 2498977 2560307 | 124143 62798 | 61331 61346 | 99.36 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_12_length_136291_cov_16.348514
+			  Extensive misassembly (relocation, inconsistency = -2235) between these two alignments
+			Real Alignment 6: 2489065 2498919 | 136291 126436 | 9855 9856 | 99.5 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_12_length_136291_cov_16.348514
+		Unaligned bases: 4812
+
+CONTIG: NODE_13_length_135315_cov_15.771821 (135315bp)
+Best alignment score: 54421.1 (LEN: 55177, IDY: 98.63), Total number of alignments: 6
+			Looking for the best set of alignments (out of 6 total alignments)
+			The best set is below. Score: 129001.9, number of alignments: 6, unaligned bases: 3868
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 131447 out of 135315 non-N bases (97.14%))
+			Real Alignment 1: 2764818 2777221 | 12405 1 | 12404 12405 | 99.24 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_13_length_135315_cov_15.771821
+			  Gap between these two alignments (local misassembly). Inconsistency = -222
+			Real Alignment 2: 2709719 2764818 | 67803 12627 | 55100 55177 | 98.63 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_13_length_135315_cov_15.771821
+			  Extensive misassembly (relocation, inconsistency = -1292) between these two alignments
+			Real Alignment 3: 2699928 2709249 | 78886 69565 | 9322 9322 | 97.98 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_13_length_135315_cov_15.771821
+			  Extensive misassembly (relocation, inconsistency = 15779) between these two alignments
+			Excluding internal overlap of size 6 between Alignment 4 and 5: 2682338 2684103 | 80697 78932 | 1766 1766 --> 2682344 2684103 | 80691 78932 | 1760 1760
+			Real Alignment 4: 2682344 2684103 | 80691 78932 | 1760 1760 | 99.32 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_13_length_135315_cov_15.771821
+			  Extensive misassembly (relocation, inconsistency = 2559) between these two alignments
+			Real Alignment 5: 2668115 2679784 | 92364 80692 | 11670 11673 | 99.21 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_13_length_135315_cov_15.771821
+			  Extensive misassembly (relocation, inconsistency = -1510) between these two alignments
+			Real Alignment 6: 2626669 2667783 | 135315 94206 | 41115 41110 | 99.33 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_13_length_135315_cov_15.771821
+		Unaligned bases: 3868
+
+CONTIG: NODE_14_length_133839_cov_16.301940 (133839bp)
+Best alignment score: 38704.4 (LEN: 38938, IDY: 99.40), Total number of alignments: 5
+			Looking for the best set of alignments (out of 5 total alignments)
+			The best set is below. Score: 126182.0, number of alignments: 5, unaligned bases: 5958
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 127881 out of 133839 non-N bases (95.55%))
+			Excluding internal overlap of size 396 between Alignment 1 and 2: 2943929 2957024 | 38548 51643 | 13096 13096 --> 2944327 2957024 | 38944 51643 | 12698 12700
+			Real Alignment 1: 2905495 2944428 | 6 38943 | 38934 38938 | 99.4 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_14_length_133839_cov_16.301940
+			  Overlap between these two alignments (local misassembly). Inconsistency = -102
+			Excluding internal overlap of size 6 between Alignment 2 and 3: 2944327 2957024 | 38944 51643 | 12698 12700 --> 2944327 2957018 | 38944 51637 | 12692 12694
+			Real Alignment 2: 2944327 2957018 | 38944 51637 | 12692 12694 | 99.36 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_14_length_133839_cov_16.301940
+			  Extensive misassembly (relocation, inconsistency = 1149) between these two alignments
+			Excluding internal overlap of size 1344 between Alignment 3 and 4: 2958168 2979716 | 51638 73072 | 21549 21435 --> 2958168 2978257 | 51638 71728 | 20090 20091
+			Real Alignment 3: 2958168 2978257 | 51638 71728 | 20090 20091 | 99.02 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_14_length_133839_cov_16.301940
+			  Gap between these two alignments (local misassembly). Inconsistency = 114
+			Real Alignment 4: 2978372 3015892 | 71729 109270 | 37521 37542 | 98.8 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_14_length_133839_cov_16.301940
+			  Extensive misassembly (relocation, inconsistency = -5215) between these two alignments
+			Real Alignment 5: 3016631 3035243 | 115224 133839 | 18613 18616 | 99.26 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_14_length_133839_cov_16.301940
+		Unaligned bases: 5958
+
+CONTIG: NODE_15_length_129793_cov_17.755418 (129793bp)
+Best alignment score: 35030.5 (LEN: 35242, IDY: 99.40), Total number of alignments: 6
+			Looking for the best set of alignments (out of 6 total alignments)
+			The best set is below. Score: 125826.9, number of alignments: 6, unaligned bases: 2410
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 127383 out of 129793 non-N bases (98.14%))
+			Excluding internal overlap of size 5 between Alignment 1 and 2: 547274 549700 | 16374 13948 | 2427 2427 --> 547274 549695 | 16374 13953 | 2422 2422
+			Real Alignment 1: 549888 563832 | 13952 1 | 13945 13952 | 99.03 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_15_length_129793_cov_17.755418
+			  Gap between these two alignments (local misassembly). Inconsistency = 192
+			Real Alignment 2: 547274 549695 | 16374 13953 | 2422 2422 | 99.34 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_15_length_129793_cov_17.755418
+			  Extensive misassembly (relocation, inconsistency = 5945) between these two alignments
+			Excluding internal overlap of size 118 between Alignment 3 and 4: 511611 541252 | 46159 16451 | 29642 29709 --> 511729 541252 | 46041 16451 | 29524 29591
+			Real Alignment 3: 511729 541252 | 46041 16451 | 29524 29591 | 99.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_15_length_129793_cov_17.755418
+			  Gap between these two alignments (local misassembly). Inconsistency = 511
+			Real Alignment 4: 475977 511217 | 81283 46042 | 35241 35242 | 99.4 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_15_length_129793_cov_17.755418
+			  Extensive misassembly (relocation, inconsistency = -1300) between these two alignments
+			Excluding internal overlap of size 226 between Alignment 5 and 6: 428624 446838 | 129793 111575 | 18215 18219 --> 428624 446616 | 129793 111801 | 17993 17993
+			Real Alignment 5: 446761 474942 | 111800 83618 | 28182 28183 | 99.58 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_15_length_129793_cov_17.755418
+			  Gap between these two alignments (local misassembly). Inconsistency = 144
+			Real Alignment 6: 428624 446616 | 129793 111801 | 17993 17993 | 99.13 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_15_length_129793_cov_17.755418
+		Unaligned bases: 2410
+
+CONTIG: NODE_16_length_112591_cov_17.743127 (112591bp)
+Best alignment score: 109231.1 (LEN: 109769, IDY: 99.51), Total number of alignments: 4
+			Looking for the best set of alignments (out of 4 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 903767 904023 | 111287 111543 | 257 257 | 99.22 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_16_length_112591_cov_17.743127
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 111528.0, number of alignments: 3, unaligned bases: 228
+		This contig is misassembled.
+			Real Alignment 1: 791082 792618 | 1 1537 | 1537 1537 | 98.89 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_16_length_112591_cov_17.743127
+			  Gap between these two alignments (local misassembly). Inconsistency = -142
+			Real Alignment 2: 792628 902463 | 1689 111457 | 109836 109769 | 99.51 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_16_length_112591_cov_17.743127
+			  Extensive misassembly (relocation, inconsistency = 2540) between these two alignments
+			Real Alignment 3: 905081 906137 | 111535 112591 | 1057 1057 | 99.43 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_16_length_112591_cov_17.743127
+
+CONTIG: NODE_17_length_109651_cov_16.524104 (109651bp)
+Best alignment score: 61265.5 (LEN: 61772, IDY: 99.18), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			The best set is below. Score: 108340.0, number of alignments: 3, unaligned bases: 0
+		This contig is misassembled.
+			Excluding internal overlap of size 2 between Alignment 1 and 2: 2785773 2787862 | 1 2090 | 2090 2090 --> 2785773 2787860 | 1 2088 | 2088 2088
+			Real Alignment 1: 2785773 2787860 | 1 2088 | 2088 2088 | 99.04 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_17_length_109651_cov_16.524104
+			  Extensive misassembly (relocation, inconsistency = 7881) between these two alignments
+			Excluding internal overlap of size 67 between Alignment 2 and 3: 2857915 2903758 | 63794 109651 | 45844 45858 --> 2857982 2903758 | 63861 109651 | 45777 45791
+			Real Alignment 2: 2795742 2857506 | 2089 63860 | 61765 61772 | 99.18 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_17_length_109651_cov_16.524104
+			  Gap between these two alignments (local misassembly). Inconsistency = 475
+			Real Alignment 3: 2857982 2903758 | 63861 109651 | 45777 45791 | 98.94 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_17_length_109651_cov_16.524104
+
+CONTIG: NODE_18_length_109392_cov_17.352794 (109392bp)
+Best alignment score: 69348.5 (LEN: 69704, IDY: 99.49), Total number of alignments: 5
+			Looking for the best set of alignments (out of 5 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 4558764 4558881 | 95304 95186 | 118 119 | 99.16 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_18_length_109392_cov_17.352794
+		Skipping redundant alignment 405185 405349 | 95191 95355 | 165 165 | 98.18 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_18_length_109392_cov_17.352794
+			The best set is below. Score: 91533.4, number of alignments: 3, unaligned bases: 16531
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 92861 out of 109392 non-N bases (84.89%))
+			Real Alignment 1: 4061445 4070478 | 947 9982 | 9034 9036 | 95.72 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_18_length_109392_cov_17.352794
+			  Extensive misassembly (relocation, inconsistency = 475863) between these two alignments
+			Excluding internal overlap of size 18 between Alignment 2 and 3: 4488710 4502848 | 109392 95254 | 14139 14139 --> 4488710 4502830 | 109392 95272 | 14121 14121
+			Real Alignment 2: 4561927 4631625 | 95271 25568 | 69699 69704 | 99.49 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_18_length_109392_cov_17.352794
+			  Extensive misassembly (relocation, inconsistency = 59096) between these two alignments
+			Real Alignment 3: 4488710 4502830 | 109392 95272 | 14121 14121 | 99.46 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_18_length_109392_cov_17.352794
+		Unaligned bases: 16531
+
+CONTIG: NODE_19_length_105998_cov_16.889082 (105998bp)
+Best alignment score: 96902.2 (LEN: 97350, IDY: 99.54), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 105237.1, number of alignments: 2, unaligned bases: 0
+		This contig is misassembled.
+			Excluding internal overlap of size 19 between Alignment 1 and 2: 1769649 1778315 | 105998 97332 | 8667 8667 --> 1769649 1778296 | 105998 97351 | 8648 8648
+			Real Alignment 1: 1808597 1905900 | 97350 1 | 97304 97350 | 99.54 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_19_length_105998_cov_16.889082
+			  Extensive misassembly (relocation, inconsistency = 30300) between these two alignments
+			Real Alignment 2: 1769649 1778296 | 105998 97351 | 8648 8648 | 99.38 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_19_length_105998_cov_16.889082
+
+CONTIG: NODE_20_length_103275_cov_16.998061 (103275bp)
+Best alignment score: 44603.7 (LEN: 44900, IDY: 99.34), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			The best set is below. Score: 100783.2, number of alignments: 3, unaligned bases: 1582
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 101693 out of 103275 non-N bases (98.47%))
+			Excluding internal overlap of size 8 between Alignment 1 and 2: 5152779 5169583 | 58384 41581 | 16805 16804 --> 5152779 5169575 | 58384 41589 | 16797 16796
+			Real Alignment 1: 5170353 5210359 | 41588 1583 | 40007 40006 | 99.37 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_20_length_103275_cov_16.998061
+			  Gap between these two alignments (local misassembly). Inconsistency = 777
+			Excluding internal overlap of size 9 between Alignment 2 and 3: 5152779 5169575 | 58384 41589 | 16797 16796 --> 5152788 5169575 | 58375 41589 | 16788 16787
+			Real Alignment 2: 5152788 5169575 | 58375 41589 | 16788 16787 | 99.53 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_20_length_103275_cov_16.998061
+			  Extensive misassembly (relocation, inconsistency = 1066) between these two alignments
+			Real Alignment 3: 5106824 5151721 | 103275 58376 | 44898 44900 | 99.34 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_20_length_103275_cov_16.998061
+		Unaligned bases: 1582
+
+CONTIG: NODE_21_length_101082_cov_17.282245 (101082bp)
+Best alignment score: 67821.9 (LEN: 68197, IDY: 99.45), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 100066.2, number of alignments: 2, unaligned bases: 89
+		This contig is misassembled.
+			Real Alignment 1: 3256714 3289510 | 1 32796 | 32797 32796 | 99.08 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_21_length_101082_cov_17.282245
+			  Extensive misassembly (relocation, inconsistency = 1023) between these two alignments
+			Real Alignment 2: 3290623 3358831 | 32886 101082 | 68209 68197 | 99.45 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_21_length_101082_cov_17.282245
+
+CONTIG: NODE_22_length_100240_cov_17.343302 (100240bp)
+Best alignment score: 98820.9 (LEN: 99658, IDY: 99.16), Total number of alignments: 2
+		Skipping these alignments as insignificant (option --ambiguity-score is set to "0.99"):
+			Skipping alignment 217151 217852 | 100240 99539 | 702 702 | 98.58 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_22_length_100240_cov_17.343302
+		One align captures most of this contig: 21168 120805 | 99658 1 | 99638 99658 | 99.16 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_22_length_100240_cov_17.343302
+
+CONTIG: NODE_23_length_95359_cov_16.923545 (95359bp)
+Best alignment score: 53809.0 (LEN: 54446, IDY: 98.83), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 92556.8, number of alignments: 2, unaligned bases: 1797
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 93562 out of 95359 non-N bases (98.12%))
+			Real Alignment 1: 5210340 5249457 | 18 39133 | 39118 39116 | 99.12 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_23_length_95359_cov_16.923545
+			  Gap between these two alignments (local misassembly). Inconsistency = 185
+			Real Alignment 2: 5249657 5304162 | 39148 93593 | 54506 54446 | 98.83 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_23_length_95359_cov_16.923545
+		Unaligned bases: 1797
+
+CONTIG: NODE_24_length_95285_cov_16.676801 (95285bp)
+Best alignment score: 68919.9 (LEN: 69322, IDY: 99.42), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 92455.8, number of alignments: 3, unaligned bases: 1979
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 93306 out of 95285 non-N bases (97.92%))
+			Real Alignment 1: 1999060 1999433 | 375 2 | 374 374 | 98.66 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_24_length_95285_cov_16.676801
+			  Extensive misassembly (relocation, inconsistency = -1609) between these two alignments
+			Excluding internal overlap of size 36 between Alignment 2 and 3: 1975058 1998690 | 25999 2354 | 23633 23646 --> 1975094 1998690 | 25963 2354 | 23597 23610
+			Real Alignment 2: 1975094 1998690 | 25963 2354 | 23597 23610 | 99.36 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_24_length_95285_cov_16.676801
+			  Overlap between these two alignments (local misassembly). Inconsistency = -194
+			Real Alignment 3: 1905917 1975287 | 95285 25964 | 69371 69322 | 99.42 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_24_length_95285_cov_16.676801
+		Unaligned bases: 1979
+
+CONTIG: NODE_25_length_94442_cov_18.048423 (94442bp)
+Best alignment score: 59316.9 (LEN: 59585, IDY: 99.55), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 93748.1, number of alignments: 2, unaligned bases: 0
+		This contig is misassembled.
+			Excluding internal overlap of size 3 between Alignment 1 and 2: 906207 941067 | 1 34860 | 34861 34860 --> 906207 941064 | 1 34857 | 34858 34857
+			Real Alignment 1: 906207 941064 | 1 34857 | 34858 34857 | 99.5 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_25_length_94442_cov_18.048423
+			  Extensive misassembly (relocation, inconsistency = 1448) between these two alignments
+			Real Alignment 2: 942513 1002091 | 34858 94442 | 59579 59585 | 99.55 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_25_length_94442_cov_18.048423
+
+CONTIG: NODE_26_length_87496_cov_16.641704 (87496bp)
+Best alignment score: 66434.9 (LEN: 66809, IDY: 99.44), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 72173.1, number of alignments: 2, unaligned bases: 14662
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 72834 out of 87496 non-N bases (83.24%))
+			Real Alignment 1: 4220063 4226087 | 6025 1 | 6025 6025 | 99.39 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_26_length_87496_cov_16.641704
+			  Extensive misassembly (relocation, inconsistency = -14583) between these two alignments
+			Real Alignment 2: 4153172 4219983 | 87496 20688 | 66812 66809 | 99.44 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_26_length_87496_cov_16.641704
+		Unaligned bases: 14662
+
+CONTIG: NODE_27_length_87393_cov_15.621502 (87393bp)
+Best alignment score: 86925.0 (LEN: 87353, IDY: 99.51), Total number of alignments: 2
+		Skipping these alignments as insignificant (option --ambiguity-score is set to "0.99"):
+			Skipping alignment 217693 217847 | 87393 87239 | 155 155 | 97.42 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_27_length_87393_cov_15.621502
+		One align captures most of this contig: 262609 349958 | 87353 1 | 87350 87353 | 99.51 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_27_length_87393_cov_15.621502
+
+CONTIG: NODE_28_length_86822_cov_17.287975 (86822bp)
+Best alignment score: 86162.2 (LEN: 86822, IDY: 99.24), Total number of alignments: 1
+		One align captures most of this contig: 125585 212475 | 1 86822 | 86891 86822 | 99.24 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_28_length_86822_cov_17.287975
+
+CONTIG: NODE_29_length_73851_cov_17.228596 (73851bp)
+Best alignment score: 26081.5 (LEN: 26268, IDY: 99.29), Total number of alignments: 4
+			Looking for the best set of alignments (out of 4 total alignments)
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 72878.7, number of alignments: 4, unaligned bases: 223
+		This contig is misassembled.
+			Real Alignment 1: 1240902 1264138 | 1 23232 | 23237 23232 | 99.47 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_29_length_73851_cov_17.228596
+			  Gap between these two alignments (local misassembly). Inconsistency = 26
+			Excluding internal overlap of size 47 between Alignment 2 and 3: 1264320 1288360 | 23388 47432 | 24041 24045 --> 1264320 1288313 | 23388 47385 | 23994 23998
+			Real Alignment 2: 1264320 1288313 | 23388 47385 | 23994 23998 | 99.42 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_29_length_73851_cov_17.228596
+			  Extensive misassembly (relocation, inconsistency = 50403) between these two alignments
+			Real Alignment 3: 1338717 1364963 | 47386 73653 | 26247 26268 | 99.29 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_29_length_73851_cov_17.228596
+			  Gap between these two alignments (local misassembly). Inconsistency = -140
+			Real Alignment 4: 1364834 1364963 | 73664 73793 | 130 130 | 97.69 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_29_length_73851_cov_17.228596
+
+CONTIG: NODE_30_length_73796_cov_16.389920 (73796bp)
+Best alignment score: 52910.1 (LEN: 53160, IDY: 99.53), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			The best set is below. Score: 65070.2, number of alignments: 3, unaligned bases: 7845
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 65951 out of 73796 non-N bases (89.37%))
+			Excluding internal overlap of size 6 between Alignment 1 and 2: 2054120 2065889 | 53155 64924 | 11770 11770 --> 2054126 2065889 | 53161 64924 | 11764 11764
+			Real Alignment 1: 1999314 2052464 | 1 53160 | 53151 53160 | 99.53 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_30_length_73796_cov_16.389920
+			  Extensive misassembly (relocation, inconsistency = 1661) between these two alignments
+			Real Alignment 2: 2054126 2065889 | 53161 64924 | 11764 11764 | 99.01 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_30_length_73796_cov_16.389920
+			  Extensive misassembly (relocation, inconsistency = 2384711) between these two alignments
+			Real Alignment 3: 4458446 4459472 | 73796 72770 | 1027 1027 | 98.93 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_30_length_73796_cov_16.389920
+		Unaligned bases: 7845
+
+CONTIG: NODE_31_length_67967_cov_16.668676 (67967bp)
+Best alignment score: 56544.0 (LEN: 56891, IDY: 99.39), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 67508.8, number of alignments: 2, unaligned bases: 0
+		This contig is misassembled.
+			Excluding internal overlap of size 367 between Alignment 1 and 2: 3179337 3190786 | 67967 56525 | 11450 11443 --> 3179337 3190415 | 67967 56892 | 11079 11076
+			Real Alignment 1: 3190594 3247482 | 56891 1 | 56889 56891 | 99.39 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_31_length_67967_cov_16.668676
+			  Gap between these two alignments (local misassembly). Inconsistency = 178
+			Real Alignment 2: 3179337 3190415 | 67967 56892 | 11079 11076 | 99.43 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_31_length_67967_cov_16.668676
+
+CONTIG: NODE_32_length_67828_cov_15.475311 (67828bp)
+Best alignment score: 31674.2 (LEN: 31827, IDY: 99.52), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 55112.9, number of alignments: 2, unaligned bases: 12420
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 55408 out of 67828 non-N bases (81.69%))
+			Excluding internal overlap of size 167 between Alignment 1 and 2: 1007104 1030851 | 67828 44081 | 23748 23748 --> 1007104 1030684 | 67828 44248 | 23581 23581
+			Real Alignment 1: 1030775 1062587 | 44247 12421 | 31813 31827 | 99.52 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_32_length_67828_cov_15.475311
+			  Gap between these two alignments (local misassembly). Inconsistency = 90
+			Real Alignment 2: 1007104 1030684 | 67828 44248 | 23581 23581 | 99.6 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_32_length_67828_cov_15.475311
+		Unaligned bases: 12420
+
+CONTIG: NODE_33_length_67760_cov_15.974095 (67760bp)
+Best alignment score: 59569.6 (LEN: 59893, IDY: 99.46), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 66709.8, number of alignments: 3, unaligned bases: 179
+		This contig is misassembled.
+			Real Alignment 1: 3119302 3179195 | 59893 1 | 59894 59893 | 99.46 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_33_length_67760_cov_15.974095
+			  Extensive misassembly (relocation, inconsistency = 1136) between these two alignments
+			Excluding internal overlap of size 5 between Alignment 2 and 3: 3117282 3117986 | 60781 60073 | 705 709 --> 3117287 3117986 | 60776 60073 | 700 704
+			Real Alignment 2: 3117287 3117986 | 60776 60073 | 700 704 | 97.74 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_33_length_67760_cov_15.974095
+			  Extensive misassembly (relocation, inconsistency = 1661) between these two alignments
+			Real Alignment 3: 3108642 3115625 | 67760 60777 | 6984 6984 | 99.58 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_33_length_67760_cov_15.974095
+
+CONTIG: NODE_34_length_65791_cov_17.229167 (65791bp)
+Best alignment score: 65231.8 (LEN: 65791, IDY: 99.15), Total number of alignments: 1
+		One align captures most of this contig: 3042879 3108660 | 65791 1 | 65782 65791 | 99.15 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_34_length_65791_cov_17.229167
+
+CONTIG: NODE_35_length_63699_cov_15.406547 (63699bp)
+Best alignment score: 25414.6 (LEN: 25532, IDY: 99.54), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 25414.6, number of alignments: 1, unaligned bases: 38167
+		This contig is partially unaligned. (Aligned 25532 out of 63699 non-N bases (40.08%))
+		Alignment: 3401208 3426735 | 1 25532 | 25528 25532 | 99.54 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_35_length_63699_cov_15.406547
+		Unaligned bases: 25533 to 63699 (38167)
+
+CONTIG: NODE_36_length_62788_cov_15.944910 (62788bp)
+Best alignment score: 15375.6 (LEN: 15605, IDY: 98.53), Total number of alignments: 4
+			Looking for the best set of alignments (out of 4 total alignments)
+			The best set is below. Score: 33757.8, number of alignments: 4, unaligned bases: 27930
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 34858 out of 62788 non-N bases (55.52%))
+			Excluding internal overlap of size 14 between Alignment 1 and 2: 4085218 4090354 | 15592 20728 | 5137 5137 --> 4085232 4090354 | 15606 20728 | 5123 5123
+			Real Alignment 1: 4034284 4049888 | 1 15605 | 15605 15605 | 98.53 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_36_length_62788_cov_15.944910
+			  Extensive misassembly (relocation, inconsistency = 35343) between these two alignments
+			Excluding internal overlap of size 6 between Alignment 2 and 3: 4085232 4090354 | 15606 20728 | 5123 5123 --> 4085232 4090348 | 15606 20722 | 5117 5117
+			Real Alignment 2: 4085232 4090348 | 15606 20722 | 5117 5117 | 99.79 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_36_length_62788_cov_15.944910
+			  Extensive misassembly (relocation, inconsistency = 1661) between these two alignments
+			Real Alignment 3: 4092010 4098640 | 20723 27353 | 6631 6631 | 99.25 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_36_length_62788_cov_15.944910
+			  Extensive misassembly (relocation, inconsistency = -27650) between these two alignments
+			Real Alignment 4: 4098791 4106294 | 55154 62658 | 7504 7505 | 99.33 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_36_length_62788_cov_15.944910
+		Unaligned bases: 27930
+
+CONTIG: NODE_37_length_56886_cov_15.654733 (56886bp)
+Best alignment score: 29279.0 (LEN: 29536, IDY: 99.13), Total number of alignments: 7
+			Looking for the best set of alignments (out of 7 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 3506377 3506499 | 48660 48538 | 123 123 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_37_length_56886_cov_15.654733
+		Skipping redundant alignment 3504512 3504651 | 48537 48676 | 140 140 | 99.29 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_37_length_56886_cov_15.654733
+			The best set is below. Score: 53494.2, number of alignments: 5, unaligned bases: 2302
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 54584 out of 56886 non-N bases (95.95%))
+			Real Alignment 1: 3527132 3546190 | 19056 1 | 19059 19056 | 98.82 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_37_length_56886_cov_15.654733
+			  Extensive misassembly (relocation, inconsistency = 1910) between these two alignments
+			Excluding internal overlap of size 17 between Alignment 2 and 3: 3429806 3433556 | 52326 48576 | 3751 3751 --> 3429806 3433539 | 52326 48593 | 3734 3734
+			Real Alignment 2: 3495689 3525221 | 48592 19057 | 29533 29536 | 99.13 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_37_length_56886_cov_15.654733
+			  Extensive misassembly (relocation, inconsistency = 62149) between these two alignments
+			Real Alignment 3: 3429806 3433539 | 52326 48593 | 3734 3734 | 99.09 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_37_length_56886_cov_15.654733
+			  Gap between these two alignments (local misassembly). Inconsistency = -351
+			Excluding internal overlap of size 3 between Alignment 4 and 5: 3429072 3429764 | 53411 52719 | 693 693 --> 3429075 3429764 | 53408 52719 | 690 690
+			Real Alignment 4: 3429075 3429764 | 53408 52719 | 690 690 | 99.28 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_37_length_56886_cov_15.654733
+			  Gap between these two alignments (local misassembly). Inconsistency = 835
+			Real Alignment 5: 3426672 3428239 | 54976 53409 | 1568 1568 | 99.3 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_37_length_56886_cov_15.654733
+		Unaligned bases: 2302
+
+CONTIG: NODE_38_length_47247_cov_17.139198 (47247bp)
+Best alignment score: 29675.8 (LEN: 29777, IDY: 99.66), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 45697.9, number of alignments: 2, unaligned bases: 1398
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 45849 out of 47247 non-N bases (97.04%))
+			Real Alignment 1: 1 16072 | 16072 1 | 16072 16072 | 99.69 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_38_length_47247_cov_17.139198
+			  Not a misassembly [linear representation of circular genome] between these two alignments
+			Real Alignment 2: 5304177 5333942 | 45849 16073 | 29766 29777 | 99.66 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_38_length_47247_cov_17.139198
+		Unaligned bases: 1398
+
+CONTIG: NODE_39_length_47151_cov_17.306886 (47151bp)
+Best alignment score: 22804.8 (LEN: 22901, IDY: 99.58), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			The best set is below. Score: 46346.4, number of alignments: 3, unaligned bases: 483
+		This contig is misassembled.
+			Real Alignment 1: 4106663 4129564 | 246 23146 | 22902 22901 | 99.58 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_39_length_47151_cov_17.306886
+			  Gap between these two alignments (local misassembly). Inconsistency = -227
+			Real Alignment 2: 4129486 4138503 | 23295 32311 | 9018 9017 | 99.57 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_39_length_47151_cov_17.306886
+			  Gap between these two alignments (local misassembly). Inconsistency = -152
+			Real Alignment 3: 4138442 4153183 | 32402 47151 | 14742 14750 | 99.06 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_39_length_47151_cov_17.306886
+
+CONTIG: NODE_40_length_46146_cov_16.144592 (46146bp)
+Best alignment score: 35035.6 (LEN: 35411, IDY: 98.94), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 3578242 3578308 | 40430 40364 | 67 67 | 98.51 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_40_length_46146_cov_16.144592
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 39500.0, number of alignments: 2, unaligned bases: 6094
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 40052 out of 46146 non-N bases (86.79%))
+			Real Alignment 1: 3584262 3619675 | 35411 1 | 35414 35411 | 98.94 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_40_length_46146_cov_16.144592
+			  Gap between these two alignments (local misassembly). Inconsistency = -202
+			Real Alignment 2: 3579751 3584393 | 40122 35482 | 4643 4641 | 96.71 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_40_length_46146_cov_16.144592
+		Unaligned bases: 6094
+
+CONTIG: NODE_41_length_42406_cov_16.679013 (42406bp)
+Best alignment score: 42215.2 (LEN: 42406, IDY: 99.55), Total number of alignments: 1
+		One align captures most of this contig: 3358823 3401226 | 42406 1 | 42404 42406 | 99.55 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_41_length_42406_cov_16.679013
+
+CONTIG: NODE_42_length_40327_cov_16.948831 (40327bp)
+Best alignment score: 34145.7 (LEN: 34435, IDY: 99.16), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 39927.4, number of alignments: 2, unaligned bases: 0
+		This contig is misassembled.
+			Excluding internal overlap of size 29 between Alignment 1 and 2: 2483123 2489043 | 34407 40327 | 5921 5921 --> 2483152 2489043 | 34436 40327 | 5892 5892
+			Real Alignment 1: 2449168 2483588 | 1 34435 | 34421 34435 | 99.16 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_42_length_40327_cov_16.948831
+			  Overlap between these two alignments (local misassembly). Inconsistency = -437
+			Real Alignment 2: 2483152 2489043 | 34436 40327 | 5892 5892 | 98.78 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_42_length_40327_cov_16.948831
+
+CONTIG: NODE_43_length_40056_cov_16.321821 (40056bp)
+Best alignment score: 28628.6 (LEN: 28732, IDY: 99.64), Total number of alignments: 4
+			Looking for the best set of alignments (out of 4 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 783406 783532 | 1 127 | 127 127 | 98.43 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_43_length_40056_cov_16.321821
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 34580.8, number of alignments: 3, unaligned bases: 5012
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 35044 out of 40056 non-N bases (87.49%))
+			Excluding internal overlap of size 18 between Alignment 1 and 2: 4835145 4841051 | 33378 39284 | 5907 5907 --> 4835163 4841051 | 33396 39284 | 5889 5889
+			Real Alignment 1: 4790436 4819167 | 4664 33395 | 28732 28732 | 99.64 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_43_length_40056_cov_16.321821
+			  Extensive misassembly (relocation, inconsistency = 15995) between these two alignments
+			Real Alignment 2: 4835163 4841051 | 33396 39284 | 5889 5889 | 98.73 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_43_length_40056_cov_16.321821
+			  Gap between these two alignments (local misassembly). Inconsistency = -181
+			Real Alignment 3: 4841220 4841642 | 39634 40056 | 423 423 | 99.53 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_43_length_40056_cov_16.321821
+		Unaligned bases: 5012
+
+CONTIG: NODE_44_length_36094_cov_12.603386 (36094bp)
+Best alignment score: 12750.6 (LEN: 12771, IDY: 99.84), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 19642.8, number of alignments: 2, unaligned bases: 15914
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 20180 out of 36094 non-N bases (55.91%))
+			Excluding internal overlap of size 540 between Alignment 1 and 2: 95368 103316 | 23863 15915 | 7949 7949 --> 95908 103316 | 23323 15915 | 7409 7409
+			Real Alignment 1: 95908 103316 | 23323 15915 | 7409 7409 | 99.76 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_44_length_36094_cov_12.603386
+			  Extensive misassembly (relocation, inconsistency = 3387) between these two alignments
+			Real Alignment 2: 79749 92520 | 36094 23324 | 12772 12771 | 99.84 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_44_length_36094_cov_12.603386
+		Unaligned bases: 15914
+
+CONTIG: NODE_45_length_31002_cov_11.687935 (31002bp)
+Best alignment score: 11370.2 (LEN: 11568, IDY: 98.29), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 2296115 2296295 | 31002 30822 | 181 181 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_45_length_31002_cov_11.687935
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 11678.2, number of alignments: 2, unaligned bases: 18847
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 12155 out of 31002 non-N bases (39.21%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 31002 (number of Ns: 0) and total length of all aligns is 12155
+		Alignment: 44444 55977 | 11570 3 | 11534 11568 | 98.29 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_45_length_31002_cov_11.687935
+		Alignment: 5169584 5170170 | 12337 11751 | 587 587 | 95.23 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_45_length_31002_cov_11.687935
+		Unaligned bases: 18847
+
+CONTIG: NODE_46_length_29769_cov_17.797180 (29769bp)
+Best alignment score: 29326.8 (LEN: 29489, IDY: 99.45), Total number of alignments: 2
+		Skipping these alignments as insignificant (option --ambiguity-score is set to "0.99"):
+			Skipping alignment 362580 362672 | 48 140 | 93 93 | 98.92 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_46_length_29769_cov_17.797180
+		One align captures most of this contig: 362581 392069 | 281 29769 | 29489 29489 | 99.45 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_46_length_29769_cov_17.797180
+
+CONTIG: NODE_47_length_28195_cov_17.794784 (28195bp)
+Best alignment score: 122.0 (LEN: 122, IDY: 100.00), Total number of alignments: 10
+			Looking for the best set of alignments (out of 10 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 10257 10362 | 28090 28195 | 106 106 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_47_length_28195_cov_17.794784
+		Skipping redundant alignment 4513494 4513615 | 28074 28195 | 122 122 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_47_length_28195_cov_17.794784
+		Skipping redundant alignment 31716 31837 | 28195 28074 | 122 122 | 100.0 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_47_length_28195_cov_17.794784
+		Skipping redundant alignment 1316047 1316168 | 28195 28074 | 122 122 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_47_length_28195_cov_17.794784
+		Skipping redundant alignment 5152654 5152775 | 28195 28074 | 122 122 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_47_length_28195_cov_17.794784
+		Skipping redundant alignment 83408 83529 | 28074 28195 | 122 122 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_47_length_28195_cov_17.794784
+		Skipping redundant alignment 586025 586146 | 28074 28195 | 122 122 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_47_length_28195_cov_17.794784
+		Skipping redundant alignment 904027 904148 | 28074 28195 | 122 122 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_47_length_28195_cov_17.794784
+		Skipping redundant alignment 4299142 4299263 | 28195 28074 | 122 122 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_47_length_28195_cov_17.794784
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 122.0, number of alignments: 1, unaligned bases: 28073
+		This contig is partially unaligned. (Aligned 122 out of 28195 non-N bases (0.43%))
+		Alignment: 3248018 3248139 | 28074 28195 | 122 122 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_47_length_28195_cov_17.794784
+		Unaligned bases: 1 to 28073 (28073)
+
+CONTIG: NODE_48_length_28084_cov_13.698573 (28084bp)
+Best alignment score: 13902.1 (LEN: 13986, IDY: 99.40), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 15341.0, number of alignments: 3, unaligned bases: 12370
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 15714 out of 28084 non-N bases (55.95%))
+			Real Alignment 1: 403199 404821 | 1 1623 | 1623 1623 | 99.38 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_48_length_28084_cov_13.698573
+			  Extensive misassembly (relocation, inconsistency = -2725) between these two alignments
+			Real Alignment 2: 404734 404838 | 4261 4365 | 105 105 | 95.24 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_48_length_28084_cov_13.698573
+			  Gap between these two alignments (local misassembly). Inconsistency = -247
+			Real Alignment 3: 404692 418678 | 4466 18451 | 13987 13986 | 99.4 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_48_length_28084_cov_13.698573
+		Unaligned bases: 12370
+
+CONTIG: NODE_49_length_26511_cov_17.234384 (26511bp)
+Best alignment score: 26418.2 (LEN: 26511, IDY: 99.65), Total number of alignments: 1
+		One align captures most of this contig: 4846529 4873038 | 26511 1 | 26510 26511 | 99.65 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_49_length_26511_cov_17.234384
+
+CONTIG: NODE_50_length_24437_cov_39.733690 (24437bp)
+Best alignment score: 273.0 (LEN: 278, IDY: 98.20), Total number of alignments: 11
+			Looking for the best set of alignments (out of 11 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1315115 1315239 | 125 1 | 125 125 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_50_length_24437_cov_39.733690
+		Skipping redundant alignment 84337 84461 | 1 125 | 125 125 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_50_length_24437_cov_39.733690
+		Skipping redundant alignment 4514423 4514547 | 1 125 | 125 125 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_50_length_24437_cov_39.733690
+		Skipping redundant alignment 30784 30908 | 125 1 | 125 125 | 100.0 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_50_length_24437_cov_39.733690
+		Skipping redundant alignment 5151722 5151846 | 125 1 | 125 125 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_50_length_24437_cov_39.733690
+		Skipping redundant alignment 4298209 4298334 | 126 1 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_50_length_24437_cov_39.733690
+		Skipping redundant alignment 586954 587079 | 1 126 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_50_length_24437_cov_39.733690
+		Skipping redundant alignment 904956 905082 | 1 127 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_50_length_24437_cov_39.733690
+		Skipping redundant alignment 3248947 3249073 | 1 127 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_50_length_24437_cov_39.733690
+			The best set is below. Score: 425.5, number of alignments: 2, unaligned bases: 23980
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 457 out of 24437 non-N bases (1.87%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 24437 (number of Ns: 0) and total length of all aligns is 457
+		Alignment: 2296018 2296295 | 24258 23981 | 278 278 | 98.2 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_50_length_24437_cov_39.733690
+		Alignment: 2296115 2296294 | 24437 24258 | 180 180 | 98.89 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_50_length_24437_cov_39.733690
+		Unaligned bases: 23980
+
+CONTIG: NODE_51_length_23640_cov_19.092970 (23640bp)
+Best alignment score: 23573.8 (LEN: 23640, IDY: 99.72), Total number of alignments: 1
+		One align captures most of this contig: 4226079 4249718 | 1 23640 | 23640 23640 | 99.72 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_51_length_23640_cov_19.092970
+
+CONTIG: NODE_52_length_23437_cov_17.435264 (23437bp)
+Best alignment score: 22975.3 (LEN: 23437, IDY: 98.03), Total number of alignments: 1
+		One align captures most of this contig: 603645 627120 | 1 23437 | 23476 23437 | 98.03 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_52_length_23437_cov_17.435264
+
+CONTIG: NODE_53_length_22271_cov_10.711705 (22271bp)
+Best alignment score: 20272.8 (LEN: 20344, IDY: 99.65), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 20272.8, number of alignments: 1, unaligned bases: 1927
+		This contig is partially unaligned. (Aligned 20344 out of 22271 non-N bases (91.35%))
+		Alignment: 57833 78176 | 1928 22271 | 20344 20344 | 99.65 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_53_length_22271_cov_10.711705
+		Unaligned bases: 1 to 1927 (1927)
+
+CONTIG: NODE_54_length_22041_cov_13.446016 (22041bp)
+Best alignment score: 210.0 (LEN: 211, IDY: 99.53), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 210.0, number of alignments: 1, unaligned bases: 21830
+		This contig is partially unaligned. (Aligned 211 out of 22041 non-N bases (0.96%))
+		Alignment: 581578 581788 | 21981 21771 | 211 211 | 99.53 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_54_length_22041_cov_13.446016
+		Unaligned bases: 1 to 21770 (21770)
+		Unaligned bases: 21982 to 22041 (60)
+
+CONTIG: NODE_55_length_21755_cov_16.042445 (21755bp)
+Best alignment score: 21652.8 (LEN: 21755, IDY: 99.53), Total number of alignments: 1
+		One align captures most of this contig: 235765 257517 | 21755 1 | 21753 21755 | 99.53 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_55_length_21755_cov_16.042445
+
+CONTIG: NODE_56_length_17665_cov_20.421200 (17665bp)
+Best alignment score: 17031.2 (LEN: 17324, IDY: 98.31), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 17300.7, number of alignments: 2, unaligned bases: 9
+		This contig is misassembled.
+			Excluding internal overlap of size 101 between Alignment 1 and 2: 563828 564263 | 17665 17233 | 436 433 --> 563828 564162 | 17665 17334 | 335 332
+			Real Alignment 1: 564044 581366 | 17333 10 | 17323 17324 | 98.31 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_56_length_17665_cov_20.421200
+			  Overlap between these two alignments (local misassembly). Inconsistency = -119
+			Real Alignment 2: 563828 564162 | 17665 17334 | 335 332 | 95.64 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_56_length_17665_cov_20.421200
+
+CONTIG: NODE_57_length_16207_cov_16.536692 (16207bp)
+Best alignment score: 14274.8 (LEN: 14476, IDY: 98.61), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 14274.8, number of alignments: 1, unaligned bases: 1731
+		This contig is partially unaligned. (Aligned 14476 out of 16207 non-N bases (89.32%))
+		Alignment: 632140 646629 | 1 14476 | 14490 14476 | 98.61 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_57_length_16207_cov_16.536692
+		Unaligned bases: 14477 to 16207 (1731)
+
+CONTIG: NODE_58_length_16065_cov_43.152340 (16065bp)
+		This contig is unaligned. (16065 bp)
+		Unaligned bases: 16065 (number of Ns: 0)
+
+CONTIG: NODE_59_length_16044_cov_17.446567 (16044bp)
+Best alignment score: 15870.7 (LEN: 16044, IDY: 98.92), Total number of alignments: 1
+		One align captures most of this contig: 4459346 4475389 | 1 16044 | 16044 16044 | 98.92 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_59_length_16044_cov_17.446567
+
+CONTIG: NODE_60_length_15263_cov_20.487777 (15263bp)
+Best alignment score: 151.0 (LEN: 153, IDY: 98.69), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 10545 10685 | 15123 15263 | 141 141 | 99.29 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_60_length_15263_cov_20.487777
+			The best set is below. Score: 151.0, number of alignments: 1, unaligned bases: 15110
+		This contig is partially unaligned. (Aligned 153 out of 15263 non-N bases (1.00%))
+		Alignment: 3579552 3579704 | 14296 14144 | 153 153 | 98.69 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_60_length_15263_cov_20.487777
+		Unaligned bases: 1 to 14143 (14143)
+		Unaligned bases: 14297 to 15263 (967)
+
+CONTIG: NODE_61_length_14915_cov_17.416554 (14915bp)
+Best alignment score: 1374.0 (LEN: 1375, IDY: 99.93), Total number of alignments: 6
+			Looking for the best set of alignments (out of 6 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 41123 41249 | 14915 14789 | 127 127 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_61_length_14915_cov_17.416554
+		Skipping redundant alignment 27934 28060 | 14789 14915 | 127 127 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_61_length_14915_cov_17.416554
+		Skipping redundant alignment 44023 44150 | 14915 14788 | 128 128 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_61_length_14915_cov_17.416554
+		Skipping redundant alignment 17897 18024 | 14788 14915 | 128 128 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_61_length_14915_cov_17.416554
+			The best set is below. Score: 2331.0, number of alignments: 2, unaligned bases: 12559
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 2356 out of 14915 non-N bases (15.80%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 14915 (number of Ns: 0) and total length of all aligns is 2356
+		Alignment: 39223 40203 | 9415 10395 | 981 981 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_61_length_14915_cov_17.416554
+		Alignment: 41955 43329 | 12937 14311 | 1375 1375 | 99.93 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_61_length_14915_cov_17.416554
+		Unaligned bases: 12559
+
+CONTIG: NODE_62_length_14279_cov_24.035331 (14279bp)
+Best alignment score: 224.0 (LEN: 232, IDY: 96.55), Total number of alignments: 11
+			Looking for the best set of alignments (out of 11 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 109641 109820 | 5698 5877 | 180 180 | 95.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_62_length_14279_cov_24.035331
+		Skipping redundant alignment 10257 10472 | 7748 7963 | 216 216 | 96.3 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_62_length_14279_cov_24.035331
+		Skipping redundant alignment 5152544 5152775 | 7963 7732 | 232 232 | 96.55 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_62_length_14279_cov_24.035331
+		Skipping redundant alignment 1315937 1316168 | 7963 7732 | 232 232 | 96.55 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_62_length_14279_cov_24.035331
+		Skipping redundant alignment 4513494 4513725 | 7732 7963 | 232 232 | 96.55 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_62_length_14279_cov_24.035331
+		Skipping redundant alignment 904027 904258 | 7732 7963 | 232 232 | 96.55 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_62_length_14279_cov_24.035331
+		Skipping redundant alignment 586025 586256 | 7732 7963 | 232 232 | 96.55 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_62_length_14279_cov_24.035331
+		Skipping redundant alignment 31606 31837 | 7963 7732 | 232 232 | 96.55 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_62_length_14279_cov_24.035331
+		Skipping redundant alignment 3248018 3248249 | 7732 7963 | 232 232 | 96.55 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_62_length_14279_cov_24.035331
+		Skipping redundant alignment 4299032 4299263 | 7963 7732 | 232 232 | 96.55 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_62_length_14279_cov_24.035331
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 224.0, number of alignments: 1, unaligned bases: 14047
+		This contig is partially unaligned. (Aligned 232 out of 14279 non-N bases (1.62%))
+		Alignment: 83408 83639 | 7732 7963 | 232 232 | 96.55 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_62_length_14279_cov_24.035331
+		Unaligned bases: 1 to 7731 (7731)
+		Unaligned bases: 7964 to 14279 (6316)
+
+CONTIG: NODE_63_length_13897_cov_17.847567 (13897bp)
+Best alignment score: 1357.0 (LEN: 1357, IDY: 100.00), Total number of alignments: 5
+			Looking for the best set of alignments (out of 5 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 27934 28059 | 126 1 | 126 126 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_63_length_13897_cov_17.847567
+		Skipping redundant alignment 41124 41249 | 1 126 | 126 126 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_63_length_13897_cov_17.847567
+		Skipping redundant alignment 44024 44150 | 1 127 | 127 127 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_63_length_13897_cov_17.847567
+		Skipping redundant alignment 17897 18023 | 127 1 | 127 127 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_63_length_13897_cov_17.847567
+			The best set is below. Score: 1357.0, number of alignments: 1, unaligned bases: 12540
+		This contig is partially unaligned. (Aligned 1357 out of 13897 non-N bases (9.76%))
+		Alignment: 10553 11909 | 4248 2892 | 1357 1357 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_63_length_13897_cov_17.847567
+		Unaligned bases: 1 to 2891 (2891)
+		Unaligned bases: 4249 to 13897 (9649)
+
+CONTIG: NODE_64_length_13318_cov_9.072095 (13318bp)
+Best alignment score: 127.0 (LEN: 127, IDY: 100.00), Total number of alignments: 9
+			Looking for the best set of alignments (out of 9 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1315115 1315241 | 127 1 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_64_length_13318_cov_9.072095
+		Skipping redundant alignment 84335 84461 | 1 127 | 127 127 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_64_length_13318_cov_9.072095
+		Skipping redundant alignment 586952 587078 | 1 127 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_64_length_13318_cov_9.072095
+		Skipping redundant alignment 4298210 4298336 | 127 1 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_64_length_13318_cov_9.072095
+		Skipping redundant alignment 4514421 4514547 | 1 127 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_64_length_13318_cov_9.072095
+		Skipping redundant alignment 904954 905080 | 1 127 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_64_length_13318_cov_9.072095
+		Skipping redundant alignment 3248945 3249071 | 1 127 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_64_length_13318_cov_9.072095
+		Skipping redundant alignment 5151722 5151848 | 127 1 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_64_length_13318_cov_9.072095
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 127.0, number of alignments: 1, unaligned bases: 13191
+		This contig is partially unaligned. (Aligned 127 out of 13318 non-N bases (0.95%))
+		Alignment: 30784 30910 | 127 1 | 127 127 | 100.0 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_64_length_13318_cov_9.072095
+		Unaligned bases: 128 to 13318 (13191)
+
+CONTIG: NODE_65_length_13306_cov_16.524850 (13306bp)
+Best alignment score: 13256.8 (LEN: 13306, IDY: 99.63), Total number of alignments: 1
+		One align captures most of this contig: 4475409 4488716 | 1 13306 | 13308 13306 | 99.63 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_65_length_13306_cov_16.524850
+
+CONTIG: NODE_66_length_12727_cov_20.495397 (12727bp)
+Best alignment score: 12633.9 (LEN: 12723, IDY: 99.30), Total number of alignments: 1
+		One align captures most of this contig: 222957 235745 | 12727 5 | 12789 12723 | 99.3 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_66_length_12727_cov_20.495397
+
+CONTIG: NODE_67_length_12597_cov_14.873857 (12597bp)
+Best alignment score: 12463.9 (LEN: 12519, IDY: 99.56), Total number of alignments: 1
+		One align captures most of this contig: 350153 362672 | 1 12519 | 12520 12519 | 99.56 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_67_length_12597_cov_14.873857
+
+CONTIG: NODE_68_length_11561_cov_49.973500 (11561bp)
+Best alignment score: 513.0 (LEN: 537, IDY: 95.54), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 513.0, number of alignments: 1, unaligned bases: 11024
+		This contig is partially unaligned. (Aligned 537 out of 11561 non-N bases (4.64%))
+		Alignment: 106465 107002 | 11249 10713 | 538 537 | 95.54 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_68_length_11561_cov_49.973500
+		Unaligned bases: 1 to 10712 (10712)
+		Unaligned bases: 11250 to 11561 (312)
+
+CONTIG: NODE_69_length_10176_cov_14.141805 (10176bp)
+		This contig is unaligned. (10176 bp)
+		Unaligned bases: 10176 (number of Ns: 0)
+
+CONTIG: NODE_70_length_10069_cov_17.659022 (10069bp)
+Best alignment score: 9803.3 (LEN: 9818, IDY: 99.85), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 391864 391942 | 176 254 | 79 79 | 97.47 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_70_length_10069_cov_17.659022
+			The best set is below. Score: 9987.3, number of alignments: 2, unaligned bases: 40
+		This contig is misassembled.
+			Real Alignment 1: 393261 393471 | 1 211 | 211 211 | 98.58 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_70_length_10069_cov_17.659022
+			  Gap between these two alignments (local misassembly). Inconsistency = -124
+			Real Alignment 2: 393388 403205 | 252 10069 | 9818 9818 | 99.85 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_70_length_10069_cov_17.659022
+
+CONTIG: NODE_71_length_9949_cov_53.718184 (9949bp)
+Best alignment score: 128.0 (LEN: 128, IDY: 100.00), Total number of alignments: 4
+			Looking for the best set of alignments (out of 4 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 27934 28059 | 9824 9949 | 126 126 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_71_length_9949_cov_53.718184
+		Skipping redundant alignment 41124 41249 | 9949 9824 | 126 126 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_71_length_9949_cov_53.718184
+		Skipping redundant alignment 17897 18023 | 9823 9949 | 127 127 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_71_length_9949_cov_53.718184
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 128.0, number of alignments: 1, unaligned bases: 9821
+		This contig is partially unaligned. (Aligned 128 out of 9949 non-N bases (1.29%))
+		Alignment: 44024 44151 | 9949 9822 | 128 128 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_71_length_9949_cov_53.718184
+		Unaligned bases: 1 to 9821 (9821)
+
+CONTIG: NODE_72_length_9783_cov_16.395298 (9783bp)
+Best alignment score: 4596.3 (LEN: 4736, IDY: 97.05), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 5680.2, number of alignments: 2, unaligned bases: 3655
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 6128 out of 9783 non-N bases (62.64%))
+			Real Alignment 1: 3560150 3561541 | 1536 145 | 1392 1392 | 95.83 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_72_length_9783_cov_16.395298
+			  Extensive misassembly (relocation, inconsistency = -2966) between these two alignments
+			Real Alignment 2: 3555139 3559887 | 9500 4765 | 4749 4736 | 97.05 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_72_length_9783_cov_16.395298
+		Unaligned bases: 3655
+
+CONTIG: NODE_73_length_9335_cov_15.611099 (9335bp)
+Best alignment score: 6624.1 (LEN: 6693, IDY: 98.97), Total number of alignments: 6
+			Looking for the best set of alignments (out of 6 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1449141 1449267 | 9335 9209 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_73_length_9335_cov_15.611099
+		Skipping redundant alignment 391943 392069 | 9209 9335 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_73_length_9335_cov_15.611099
+		Skipping redundant alignment 941068 941194 | 9209 9335 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_73_length_9335_cov_15.611099
+		Skipping redundant alignment 5077395 5077536 | 9194 9335 | 142 142 | 98.59 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_73_length_9335_cov_15.611099
+		Skipping redundant alignment 1519504 1519645 | 9335 9194 | 142 142 | 98.59 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_73_length_9335_cov_15.611099
+			The best set is below. Score: 6624.1, number of alignments: 1, unaligned bases: 2642
+		This contig is partially unaligned. (Aligned 6693 out of 9335 non-N bases (71.70%))
+		Alignment: 1073317 1079998 | 2513 9205 | 6682 6693 | 98.97 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_73_length_9335_cov_15.611099
+		Unaligned bases: 1 to 2512 (2512)
+		Unaligned bases: 9206 to 9335 (130)
+
+CONTIG: NODE_74_length_9300_cov_18.082525 (9300bp)
+Best alignment score: 9196.8 (LEN: 9300, IDY: 98.89), Total number of alignments: 1
+		One align captures most of this contig: 4020144 4029411 | 1 9300 | 9268 9300 | 98.89 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_74_length_9300_cov_18.082525
+
+CONTIG: NODE_75_length_8860_cov_18.038246 (8860bp)
+Best alignment score: 127.0 (LEN: 127, IDY: 100.00), Total number of alignments: 19
+			Looking for the best set of alignments (out of 19 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 10257 10364 | 108 1 | 108 108 | 99.07 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_75_length_8860_cov_18.038246
+		Skipping redundant alignment 586025 586148 | 124 1 | 124 124 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_75_length_8860_cov_18.038246
+		Skipping redundant alignment 5152652 5152775 | 1 124 | 124 124 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_75_length_8860_cov_18.038246
+		Skipping redundant alignment 31714 31837 | 1 124 | 124 124 | 99.19 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_75_length_8860_cov_18.038246
+		Skipping redundant alignment 904027 904150 | 124 1 | 124 124 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_75_length_8860_cov_18.038246
+		Skipping redundant alignment 83408 83531 | 124 1 | 124 124 | 99.19 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_75_length_8860_cov_18.038246
+		Skipping redundant alignment 4513494 4513617 | 124 1 | 124 124 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_75_length_8860_cov_18.038246
+		Skipping redundant alignment 1316045 1316168 | 1 124 | 124 124 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_75_length_8860_cov_18.038246
+		Skipping redundant alignment 4299140 4299263 | 1 124 | 124 124 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_75_length_8860_cov_18.038246
+		Skipping redundant alignment 3248018 3248141 | 124 1 | 124 124 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_75_length_8860_cov_18.038246
+		Skipping redundant alignment 904901 905027 | 8860 8734 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_75_length_8860_cov_18.038246
+		Skipping redundant alignment 1315168 1315294 | 8734 8860 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_75_length_8860_cov_18.038246
+		Skipping redundant alignment 4298263 4298389 | 8734 8860 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_75_length_8860_cov_18.038246
+		Skipping redundant alignment 3248892 3249018 | 8860 8734 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_75_length_8860_cov_18.038246
+		Skipping redundant alignment 586899 587025 | 8860 8734 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_75_length_8860_cov_18.038246
+		Skipping redundant alignment 30837 30963 | 8734 8860 | 127 127 | 100.0 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_75_length_8860_cov_18.038246
+		Skipping redundant alignment 84282 84408 | 8860 8734 | 127 127 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_75_length_8860_cov_18.038246
+		Skipping redundant alignment 4514368 4514494 | 8860 8734 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_75_length_8860_cov_18.038246
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 127.0, number of alignments: 1, unaligned bases: 8733
+		This contig is partially unaligned. (Aligned 127 out of 8860 non-N bases (1.43%))
+		Alignment: 5151775 5151901 | 8734 8860 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_75_length_8860_cov_18.038246
+		Unaligned bases: 1 to 8733 (8733)
+
+CONTIG: NODE_76_length_8566_cov_17.332741 (8566bp)
+Best alignment score: 8512.9 (LEN: 8566, IDY: 99.38), Total number of alignments: 1
+		One align captures most of this contig: 2777218 2785783 | 8566 1 | 8566 8566 | 99.38 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_76_length_8566_cov_17.332741
+
+CONTIG: NODE_77_length_8112_cov_11.097808 (8112bp)
+Best alignment score: 3215.1 (LEN: 3245, IDY: 99.08), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 3215.1, number of alignments: 1, unaligned bases: 4867
+		This contig is partially unaligned. (Aligned 3245 out of 8112 non-N bases (40.00%))
+		Alignment: 594146 597390 | 3245 1 | 3245 3245 | 99.08 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_77_length_8112_cov_11.097808
+		Unaligned bases: 3246 to 8112 (4867)
+
+CONTIG: NODE_78_length_7685_cov_16.866631 (7685bp)
+Best alignment score: 7615.1 (LEN: 7685, IDY: 99.09), Total number of alignments: 1
+		One align captures most of this contig: 783406 791081 | 1 7685 | 7676 7685 | 99.09 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_78_length_7685_cov_16.866631
+
+CONTIG: NODE_79_length_7664_cov_11.556588 (7664bp)
+Best alignment score: 123.0 (LEN: 123, IDY: 100.00), Total number of alignments: 10
+			Looking for the best set of alignments (out of 10 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 10257 10363 | 107 1 | 107 107 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_79_length_7664_cov_11.556588
+		Skipping redundant alignment 4299141 4299263 | 1 123 | 123 123 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_79_length_7664_cov_11.556588
+		Skipping redundant alignment 904027 904149 | 123 1 | 123 123 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_79_length_7664_cov_11.556588
+		Skipping redundant alignment 1316046 1316168 | 1 123 | 123 123 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_79_length_7664_cov_11.556588
+		Skipping redundant alignment 5152653 5152775 | 1 123 | 123 123 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_79_length_7664_cov_11.556588
+		Skipping redundant alignment 4513494 4513616 | 123 1 | 123 123 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_79_length_7664_cov_11.556588
+		Skipping redundant alignment 586025 586147 | 123 1 | 123 123 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_79_length_7664_cov_11.556588
+		Skipping redundant alignment 83408 83530 | 123 1 | 123 123 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_79_length_7664_cov_11.556588
+		Skipping redundant alignment 31715 31837 | 1 123 | 123 123 | 100.0 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_79_length_7664_cov_11.556588
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 123.0, number of alignments: 1, unaligned bases: 7541
+		This contig is partially unaligned. (Aligned 123 out of 7664 non-N bases (1.60%))
+		Alignment: 3248018 3248140 | 123 1 | 123 123 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_79_length_7664_cov_11.556588
+		Unaligned bases: 124 to 7664 (7541)
+
+CONTIG: NODE_80_length_7657_cov_9.312483 (7657bp)
+Best alignment score: 7651.6 (LEN: 7657, IDY: 99.93), Total number of alignments: 1
+		One align captures most of this contig: 3035227 3042882 | 7657 1 | 7656 7657 | 99.93 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_80_length_7657_cov_9.312483
+
+CONTIG: NODE_81_length_7591_cov_24.116827 (7591bp)
+Best alignment score: 128.0 (LEN: 128, IDY: 100.00), Total number of alignments: 10
+			Looking for the best set of alignments (out of 10 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 11771 11897 | 1 127 | 127 127 | 96.85 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_81_length_7591_cov_24.116827
+		Skipping redundant alignment 4298210 4298336 | 7465 7591 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_81_length_7591_cov_24.116827
+		Skipping redundant alignment 3248945 3249071 | 7591 7465 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_81_length_7591_cov_24.116827
+		Skipping redundant alignment 5151722 5151848 | 7465 7591 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_81_length_7591_cov_24.116827
+		Skipping redundant alignment 904954 905080 | 7591 7465 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_81_length_7591_cov_24.116827
+		Skipping redundant alignment 586952 587078 | 7591 7465 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_81_length_7591_cov_24.116827
+		Skipping redundant alignment 30783 30910 | 7464 7591 | 128 128 | 100.0 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_81_length_7591_cov_24.116827
+		Skipping redundant alignment 84335 84462 | 7591 7464 | 128 128 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_81_length_7591_cov_24.116827
+		Skipping redundant alignment 4514421 4514548 | 7591 7464 | 128 128 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_81_length_7591_cov_24.116827
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 128.0, number of alignments: 1, unaligned bases: 7463
+		This contig is partially unaligned. (Aligned 128 out of 7591 non-N bases (1.69%))
+		Alignment: 1315114 1315241 | 7464 7591 | 128 128 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_81_length_7591_cov_24.116827
+		Unaligned bases: 1 to 7463 (7463)
+
+CONTIG: NODE_82_length_6973_cov_16.536518 (6973bp)
+Best alignment score: 5084.0 (LEN: 5084, IDY: 100.00), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 5602.0, number of alignments: 2, unaligned bases: 1121
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 5852 out of 6973 non-N bases (83.92%))
+			Real Alignment 1: 12940 18023 | 5084 1 | 5084 5084 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_82_length_6973_cov_16.536518
+			  Extensive misassembly (relocation, inconsistency = 2683) between these two alignments
+			Real Alignment 2: 9489 10256 | 5852 5085 | 768 768 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_82_length_6973_cov_16.536518
+		Unaligned bases: 1121
+
+CONTIG: NODE_83_length_6693_cov_7.383186 (6693bp)
+Best alignment score: 5552.1 (LEN: 5735, IDY: 96.81), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 5552.1, number of alignments: 1, unaligned bases: 958
+		This contig is partially unaligned. (Aligned 5735 out of 6693 non-N bases (85.69%))
+		Alignment: 3549242 3554978 | 6693 959 | 5737 5735 | 96.81 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_83_length_6693_cov_7.383186
+		Unaligned bases: 1 to 958 (958)
+
+CONTIG: NODE_84_length_6060_cov_12.647564 (6060bp)
+Best alignment score: 5990.9 (LEN: 6060, IDY: 98.86), Total number of alignments: 1
+		One align captures most of this contig: 597604 603663 | 6060 1 | 6060 6060 | 98.86 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_84_length_6060_cov_12.647564
+
+CONTIG: NODE_85_length_6044_cov_9.171033 (6044bp)
+		This contig is unaligned. (6044 bp)
+		Unaligned bases: 6044 (number of Ns: 0)
+
+CONTIG: NODE_86_length_5844_cov_16.347210 (5844bp)
+Best alignment score: 5723.6 (LEN: 5844, IDY: 97.94), Total number of alignments: 1
+		One align captures most of this contig: 2443255 2449176 | 5844 1 | 5922 5844 | 97.94 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_86_length_5844_cov_16.347210
+
+CONTIG: NODE_87_length_5489_cov_12.014174 (5489bp)
+Best alignment score: 123.0 (LEN: 124, IDY: 99.19), Total number of alignments: 10
+			Looking for the best set of alignments (out of 10 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 10257 10364 | 5382 5489 | 108 108 | 99.07 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_87_length_5489_cov_12.014174
+		Skipping redundant alignment 1316045 1316168 | 5489 5366 | 124 124 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_87_length_5489_cov_12.014174
+		Skipping redundant alignment 83408 83531 | 5366 5489 | 124 124 | 99.19 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_87_length_5489_cov_12.014174
+		Skipping redundant alignment 5152652 5152775 | 5489 5366 | 124 124 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_87_length_5489_cov_12.014174
+		Skipping redundant alignment 31714 31837 | 5489 5366 | 124 124 | 99.19 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_87_length_5489_cov_12.014174
+		Skipping redundant alignment 904027 904150 | 5366 5489 | 124 124 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_87_length_5489_cov_12.014174
+		Skipping redundant alignment 586025 586148 | 5366 5489 | 124 124 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_87_length_5489_cov_12.014174
+		Skipping redundant alignment 4299140 4299263 | 5489 5366 | 124 124 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_87_length_5489_cov_12.014174
+		Skipping redundant alignment 4513494 4513617 | 5366 5489 | 124 124 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_87_length_5489_cov_12.014174
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 123.0, number of alignments: 1, unaligned bases: 5365
+		This contig is partially unaligned. (Aligned 124 out of 5489 non-N bases (2.26%))
+		Alignment: 3248018 3248141 | 5366 5489 | 124 124 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_87_length_5489_cov_12.014174
+		Unaligned bases: 1 to 5365 (5365)
+
+CONTIG: NODE_88_length_5114_cov_5.122920 (5114bp)
+		This contig is unaligned. (5114 bp)
+		Unaligned bases: 5114 (number of Ns: 0)
+
+CONTIG: NODE_89_length_4827_cov_14.671489 (4827bp)
+Best alignment score: 4196.2 (LEN: 4251, IDY: 98.71), Total number of alignments: 7
+			Looking for the best set of alignments (out of 7 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 942386 942512 | 4827 4701 | 127 127 | 99.21 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_89_length_4827_cov_14.671489
+		Skipping redundant alignment 1518186 1518312 | 4701 4827 | 127 127 | 99.21 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_89_length_4827_cov_14.671489
+		Skipping redundant alignment 393261 393387 | 4827 4701 | 127 127 | 99.21 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_89_length_4827_cov_14.671489
+		Skipping redundant alignment 5078728 5078854 | 4827 4701 | 127 127 | 99.21 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_89_length_4827_cov_14.671489
+		Skipping redundant alignment 1447823 1447949 | 4701 4827 | 127 127 | 99.21 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_89_length_4827_cov_14.671489
+		Skipping redundant alignment 2149952 2150150 | 4630 4827 | 199 198 | 95.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_89_length_4827_cov_14.671489
+			The best set is below. Score: 4196.2, number of alignments: 1, unaligned bases: 576
+		This contig is partially unaligned. (Aligned 4251 out of 4827 non-N bases (88.07%))
+		Alignment: 1081131 1085381 | 4251 1 | 4251 4251 | 98.71 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_89_length_4827_cov_14.671489
+		Unaligned bases: 4252 to 4827 (576)
+
+CONTIG: NODE_90_length_4816_cov_16.840691 (4816bp)
+Best alignment score: 1883.0 (LEN: 1898, IDY: 99.21), Total number of alignments: 10
+			Looking for the best set of alignments (out of 10 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 4457520 4457696 | 177 1 | 177 177 | 98.31 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_90_length_4816_cov_16.840691
+		Skipping redundant alignment 1313470 1315114 | 3739 2095 | 1645 1645 | 99.94 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_90_length_4816_cov_16.840691
+		Skipping redundant alignment 4090355 4092010 | 2084 3739 | 1656 1656 | 99.94 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_90_length_4816_cov_16.840691
+		Skipping redundant alignment 3115626 3117281 | 2084 3739 | 1656 1656 | 99.94 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_90_length_4816_cov_16.840691
+		Skipping redundant alignment 2560308 2561963 | 3739 2084 | 1656 1656 | 99.94 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_90_length_4816_cov_16.840691
+		Skipping redundant alignment 2052464 2054119 | 2084 3739 | 1656 1656 | 99.94 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_90_length_4816_cov_16.840691
+		Skipping redundant alignment 2680682 2682338 | 3739 2083 | 1657 1657 | 99.94 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_90_length_4816_cov_16.840691
+		Skipping redundant alignment 80828 82486 | 2083 3741 | 1659 1659 | 99.94 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_90_length_4816_cov_16.840691
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 3297.5, number of alignments: 2, unaligned bases: 1260
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 3556 out of 4816 non-N bases (73.84%))
+			Excluding internal overlap of size 1 between Alignment 1 and 2: 32759 34417 | 3741 2083 | 1659 1659 --> 32759 34416 | 3741 2084 | 1658 1658
+			Real Alignment 1: 2065910 2067808 | 186 2083 | 1899 1898 | 99.21 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_90_length_4816_cov_16.840691
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 2: 32759 34416 | 3741 2084 | 1658 1658 | 99.94 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_90_length_4816_cov_16.840691
+		Unaligned bases: 1260
+
+CONTIG: NODE_91_length_4508_cov_14.183976 (4508bp)
+Best alignment score: 4407.8 (LEN: 4442, IDY: 99.23), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 4029202 4029386 | 4323 4508 | 185 186 | 99.46 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_91_length_4508_cov_14.183976
+		Skipping redundant alignment 262543 262728 | 4508 4322 | 186 187 | 98.93 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_91_length_4508_cov_14.183976
+			The best set is below. Score: 4407.8, number of alignments: 1, unaligned bases: 66
+		Alignment: 217733 222173 | 4442 1 | 4441 4442 | 99.23 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_91_length_4508_cov_14.183976
+
+CONTIG: NODE_92_length_4133_cov_16.394159 (4133bp)
+		This contig is unaligned. (4133 bp)
+		Unaligned bases: 4133 (number of Ns: 0)
+
+CONTIG: NODE_93_length_4126_cov_7.359340 (4126bp)
+Best alignment score: 1755.1 (LEN: 1837, IDY: 95.54), Total number of alignments: 7
+			Looking for the best set of alignments (out of 7 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 42729 42878 | 798 648 | 150 151 | 96.69 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_93_length_4126_cov_7.359340
+		Skipping redundant alignment 27934 28058 | 4002 4126 | 125 125 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_93_length_4126_cov_7.359340
+		Skipping redundant alignment 41125 41249 | 4126 4002 | 125 125 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_93_length_4126_cov_7.359340
+		Skipping redundant alignment 44025 44150 | 4126 4001 | 126 126 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_93_length_4126_cov_7.359340
+		Skipping redundant alignment 17897 18022 | 4001 4126 | 126 126 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_93_length_4126_cov_7.359340
+			The best set is below. Score: 1800.1, number of alignments: 2, unaligned bases: 2037
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 2089 out of 4126 non-N bases (50.63%))
+			Real Alignment 1: 2293841 2294092 | 252 1 | 252 252 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_93_length_4126_cov_7.359340
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 2: 37481 39318 | 3848 2012 | 1838 1837 | 95.54 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_93_length_4126_cov_7.359340
+		Unaligned bases: 2037
+
+CONTIG: NODE_94_length_3935_cov_19.577206 (3935bp)
+Best alignment score: 320.1 (LEN: 335, IDY: 95.54), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1123 1197 | 75 1 | 75 75 | 100.0 | NC_016847.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS5__complete_sequence NODE_94_length_3935_cov_19.577206
+			The best set is below. Score: 450.1, number of alignments: 2, unaligned bases: 3441
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 494 out of 3935 non-N bases (12.55%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 3935 (number of Ns: 0) and total length of all aligns is 494
+		Alignment: 2809 3143 | 1744 1410 | 335 335 | 95.54 | NC_016847.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS5__complete_sequence NODE_94_length_3935_cov_19.577206
+		Alignment: 1072 1229 | 3935 3777 | 158 159 | 96.86 | NC_016847.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS5__complete_sequence NODE_94_length_3935_cov_19.577206
+		Unaligned bases: 3441
+
+CONTIG: NODE_95_length_3562_cov_23.296943 (3562bp)
+Best alignment score: 129.0 (LEN: 129, IDY: 100.00), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 50701 50827 | 1 127 | 127 127 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_95_length_3562_cov_23.296943
+		Skipping redundant alignment 42604 42730 | 1 127 | 127 127 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_95_length_3562_cov_23.296943
+			The best set is below. Score: 129.0, number of alignments: 1, unaligned bases: 3433
+		This contig is partially unaligned. (Aligned 129 out of 3562 non-N bases (3.62%))
+		Alignment: 30627 30755 | 1 129 | 129 129 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_95_length_3562_cov_23.296943
+		Unaligned bases: 130 to 3562 (3433)
+
+CONTIG: NODE_96_length_3334_cov_40.598690 (3334bp)
+		This contig is unaligned. (3334 bp)
+		Unaligned bases: 3334 (number of Ns: 0)
+
+CONTIG: NODE_97_length_3272_cov_38.573609 (3272bp)
+Best alignment score: 3174.5 (LEN: 3272, IDY: 97.02), Total number of alignments: 1
+		One align captures most of this contig: 780243 783532 | 3272 1 | 3290 3272 | 97.02 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_97_length_3272_cov_38.573609
+
+CONTIG: NODE_98_length_3032_cov_8.641652 (3032bp)
+Best alignment score: 737.0 (LEN: 751, IDY: 98.14), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 887.0, number of alignments: 2, unaligned bases: 2129
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 903 out of 3032 non-N bases (29.78%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 3032 (number of Ns: 0) and total length of all aligns is 903
+		Alignment: 3252280 3253030 | 2056 2806 | 751 751 | 98.14 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_98_length_3032_cov_8.641652
+		Alignment: 3253032 3253183 | 2807 2958 | 152 152 | 98.68 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_98_length_3032_cov_8.641652
+		Unaligned bases: 2129
+
+CONTIG: NODE_99_length_2973_cov_26.651441 (2973bp)
+Best alignment score: 258.0 (LEN: 260, IDY: 99.23), Total number of alignments: 9
+			Looking for the best set of alignments (out of 9 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 29288 29504 | 217 1 | 217 217 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_99_length_2973_cov_26.651441
+		Skipping redundant alignment 41265 41481 | 217 1 | 217 217 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_99_length_2973_cov_26.651441
+		Skipping redundant alignment 40430 40556 | 2847 2973 | 127 127 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_99_length_2973_cov_26.651441
+		Skipping redundant alignment 29447 29573 | 2973 2847 | 127 127 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_99_length_2973_cov_26.651441
+		Skipping redundant alignment 28627 28753 | 2973 2847 | 127 127 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_99_length_2973_cov_26.651441
+		Skipping redundant alignment 18591 18718 | 2973 2846 | 128 128 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_99_length_2973_cov_26.651441
+			The best set is below. Score: 322.5, number of alignments: 3, unaligned bases: 2473
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 500 out of 2973 non-N bases (16.82%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 2973 (number of Ns: 0) and total length of all aligns is 500
+		Alignment: 18860 19119 | 260 1 | 260 260 | 99.23 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_99_length_2973_cov_26.651441
+		Alignment: 40087 40202 | 258 373 | 116 116 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_99_length_2973_cov_26.651441
+		Alignment: 43330 43456 | 2847 2973 | 127 127 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_99_length_2973_cov_26.651441
+		Unaligned bases: 2473
+
+CONTIG: NODE_100_length_2901_cov_6.545782 (2901bp)
+		This contig is unaligned. (2901 bp)
+		Unaligned bases: 2901 (number of Ns: 0)
+
+CONTIG: NODE_101_length_2753_cov_6.225057 (2753bp)
+Best alignment score: 2602.0 (LEN: 2627, IDY: 99.05), Total number of alignments: 11
+			Looking for the best set of alignments (out of 11 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 10257 10363 | 107 1 | 107 107 | 99.07 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_101_length_2753_cov_6.225057
+		Skipping redundant alignment 904027 904149 | 123 1 | 123 123 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_101_length_2753_cov_6.225057
+		Skipping redundant alignment 4513494 4513616 | 123 1 | 123 123 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_101_length_2753_cov_6.225057
+		Skipping redundant alignment 31715 31837 | 1 123 | 123 123 | 99.19 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_101_length_2753_cov_6.225057
+		Skipping redundant alignment 3248018 3248140 | 123 1 | 123 123 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_101_length_2753_cov_6.225057
+		Skipping redundant alignment 83408 83530 | 123 1 | 123 123 | 99.19 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_101_length_2753_cov_6.225057
+		Skipping redundant alignment 1316046 1316168 | 1 123 | 123 123 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_101_length_2753_cov_6.225057
+		Skipping redundant alignment 586025 586147 | 123 1 | 123 123 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_101_length_2753_cov_6.225057
+		Skipping redundant alignment 5152653 5152775 | 1 123 | 123 123 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_101_length_2753_cov_6.225057
+		Skipping redundant alignment 4299141 4299263 | 1 123 | 123 123 | 99.19 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_101_length_2753_cov_6.225057
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 2602.0, number of alignments: 1, unaligned bases: 126
+		Alignment: 3546623 3549249 | 127 2753 | 2627 2627 | 99.05 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_101_length_2753_cov_6.225057
+
+CONTIG: NODE_102_length_2502_cov_8.608421 (2502bp)
+Best alignment score: 260.0 (LEN: 270, IDY: 96.30), Total number of alignments: 10
+			Looking for the best set of alignments (out of 10 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 4514422 4514547 | 2502 2377 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_102_length_2502_cov_8.608421
+		Skipping redundant alignment 1315115 1315240 | 2377 2502 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_102_length_2502_cov_8.608421
+		Skipping redundant alignment 5151722 5151847 | 2377 2502 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_102_length_2502_cov_8.608421
+		Skipping redundant alignment 30784 30909 | 2377 2502 | 126 126 | 100.0 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_102_length_2502_cov_8.608421
+		Skipping redundant alignment 84336 84461 | 2502 2377 | 126 126 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_102_length_2502_cov_8.608421
+		Skipping redundant alignment 3248946 3249072 | 2502 2376 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_102_length_2502_cov_8.608421
+		Skipping redundant alignment 4298209 4298335 | 2376 2502 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_102_length_2502_cov_8.608421
+		Skipping redundant alignment 904955 905081 | 2502 2376 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_102_length_2502_cov_8.608421
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 263.0, number of alignments: 2, unaligned bases: 2103
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 399 out of 2502 non-N bases (15.95%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 2502 (number of Ns: 0) and total length of all aligns is 399
+		Alignment: 10257 10526 | 419 150 | 270 270 | 96.3 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_102_length_2502_cov_8.608421
+		Alignment: 586953 587081 | 2502 2374 | 129 129 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_102_length_2502_cov_8.608421
+		Unaligned bases: 2103
+
+CONTIG: NODE_103_length_2442_cov_5.109719 (2442bp)
+Best alignment score: 123.0 (LEN: 123, IDY: 100.00), Total number of alignments: 10
+			Looking for the best set of alignments (out of 10 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 10257 10363 | 107 1 | 107 107 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_103_length_2442_cov_5.109719
+		Skipping redundant alignment 904027 904149 | 123 1 | 123 123 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_103_length_2442_cov_5.109719
+		Skipping redundant alignment 4299141 4299263 | 1 123 | 123 123 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_103_length_2442_cov_5.109719
+		Skipping redundant alignment 3248018 3248140 | 123 1 | 123 123 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_103_length_2442_cov_5.109719
+		Skipping redundant alignment 586025 586147 | 123 1 | 123 123 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_103_length_2442_cov_5.109719
+		Skipping redundant alignment 83408 83530 | 123 1 | 123 123 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_103_length_2442_cov_5.109719
+		Skipping redundant alignment 1316046 1316168 | 1 123 | 123 123 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_103_length_2442_cov_5.109719
+		Skipping redundant alignment 5152653 5152775 | 1 123 | 123 123 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_103_length_2442_cov_5.109719
+		Skipping redundant alignment 4513494 4513616 | 123 1 | 123 123 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_103_length_2442_cov_5.109719
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 123.0, number of alignments: 1, unaligned bases: 2319
+		This contig is partially unaligned. (Aligned 123 out of 2442 non-N bases (5.04%))
+		Alignment: 31715 31837 | 1 123 | 123 123 | 100.0 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_103_length_2442_cov_5.109719
+		Unaligned bases: 124 to 2442 (2319)
+
+CONTIG: NODE_104_length_2278_cov_68.028359 (2278bp)
+		This contig is unaligned. (2278 bp)
+		Unaligned bases: 2278 (number of Ns: 0)
+
+CONTIG: NODE_105_length_2271_cov_2.655317 (2271bp)
+		This contig is unaligned. (2271 bp)
+		Unaligned bases: 2271 (number of Ns: 0)
+
+CONTIG: NODE_106_length_2223_cov_80.416985 (2223bp)
+Best alignment score: 2215.0 (LEN: 2223, IDY: 99.64), Total number of alignments: 1
+		One align captures most of this contig: 2293966 2296188 | 2223 1 | 2223 2223 | 99.64 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_106_length_2223_cov_80.416985
+
+CONTIG: NODE_107_length_2213_cov_57.517737 (2213bp)
+Best alignment score: 511.0 (LEN: 511, IDY: 100.00), Total number of alignments: 5
+			Looking for the best set of alignments (out of 5 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 10553 10626 | 1630 1703 | 74 74 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_107_length_2213_cov_57.517737
+		Skipping redundant alignment 18208 18717 | 2213 1704 | 510 510 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_107_length_2213_cov_57.517737
+		Skipping redundant alignment 28244 28753 | 2213 1704 | 510 510 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_107_length_2213_cov_57.517737
+		Skipping redundant alignment 43330 43839 | 1704 2213 | 510 510 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_107_length_2213_cov_57.517737
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 511.0, number of alignments: 1, unaligned bases: 1702
+		This contig is partially unaligned. (Aligned 511 out of 2213 non-N bases (23.09%))
+		Alignment: 40429 40939 | 1703 2213 | 511 511 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_107_length_2213_cov_57.517737
+		Unaligned bases: 1 to 1702 (1702)
+
+CONTIG: NODE_108_length_2141_cov_5.358987 (2141bp)
+		This contig is unaligned. (2141 bp)
+		Unaligned bases: 2141 (number of Ns: 0)
+
+CONTIG: NODE_109_length_2104_cov_154.399595 (2104bp)
+Best alignment score: 2097.1 (LEN: 2104, IDY: 99.67), Total number of alignments: 8
+		This contig has 8 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+			Alignment: 259610 261713 | 2104 1 | 2104 2104 | 99.67 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_109_length_2104_cov_154.399595
+			Skipping alignment 18167 20270 | 2104 1 | 2104 2104 | 99.67 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_109_length_2104_cov_154.399595
+			Skipping alignment 4842431 4844534 | 1 2104 | 2104 2104 | 99.67 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_109_length_2104_cov_154.399595
+			Skipping alignment 629251 631354 | 2104 1 | 2104 2104 | 99.67 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_109_length_2104_cov_154.399595
+			Skipping alignment 1004183 1006286 | 2104 1 | 2104 2104 | 99.67 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_109_length_2104_cov_154.399595
+			Skipping alignment 4030309 4032412 | 1 2104 | 2104 2104 | 99.57 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_109_length_2104_cov_154.399595
+			Skipping alignment 214566 216669 | 2104 1 | 2104 2104 | 99.48 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_109_length_2104_cov_154.399595
+			Skipping alignment 122696 124799 | 2104 1 | 2104 2104 | 99.48 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_109_length_2104_cov_154.399595
+
+CONTIG: NODE_110_length_1900_cov_2.503666 (1900bp)
+Best alignment score: 124.0 (LEN: 124, IDY: 100.00), Total number of alignments: 10
+			Looking for the best set of alignments (out of 10 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 10257 10364 | 1793 1900 | 108 108 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_110_length_1900_cov_2.503666
+		Skipping redundant alignment 4299140 4299263 | 1900 1777 | 124 124 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_110_length_1900_cov_2.503666
+		Skipping redundant alignment 3248018 3248141 | 1777 1900 | 124 124 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_110_length_1900_cov_2.503666
+		Skipping redundant alignment 83408 83531 | 1777 1900 | 124 124 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_110_length_1900_cov_2.503666
+		Skipping redundant alignment 586025 586148 | 1777 1900 | 124 124 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_110_length_1900_cov_2.503666
+		Skipping redundant alignment 904027 904150 | 1777 1900 | 124 124 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_110_length_1900_cov_2.503666
+		Skipping redundant alignment 4513494 4513617 | 1777 1900 | 124 124 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_110_length_1900_cov_2.503666
+		Skipping redundant alignment 5152652 5152775 | 1900 1777 | 124 124 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_110_length_1900_cov_2.503666
+		Skipping redundant alignment 31714 31837 | 1900 1777 | 124 124 | 100.0 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_110_length_1900_cov_2.503666
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 124.0, number of alignments: 1, unaligned bases: 1776
+		This contig is partially unaligned. (Aligned 124 out of 1900 non-N bases (6.53%))
+		Alignment: 1316045 1316168 | 1900 1777 | 124 124 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_110_length_1900_cov_2.503666
+		Unaligned bases: 1 to 1776 (1776)
+
+CONTIG: NODE_111_length_1885_cov_18.744027 (1885bp)
+Best alignment score: 128.0 (LEN: 128, IDY: 100.00), Total number of alignments: 18
+			Looking for the best set of alignments (out of 18 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 904957 905080 | 1 124 | 124 124 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_111_length_1885_cov_18.744027
+		Skipping redundant alignment 586955 587078 | 1 124 | 124 124 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_111_length_1885_cov_18.744027
+		Skipping redundant alignment 5151722 5151845 | 124 1 | 124 124 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_111_length_1885_cov_18.744027
+		Skipping redundant alignment 3248948 3249071 | 1 124 | 124 124 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_111_length_1885_cov_18.744027
+		Skipping redundant alignment 4298210 4298333 | 124 1 | 124 124 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_111_length_1885_cov_18.744027
+		Skipping redundant alignment 84338 84462 | 1 125 | 125 125 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_111_length_1885_cov_18.744027
+		Skipping redundant alignment 1315114 1315238 | 125 1 | 125 125 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_111_length_1885_cov_18.744027
+		Skipping redundant alignment 30783 30907 | 125 1 | 125 125 | 100.0 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_111_length_1885_cov_18.744027
+		Skipping redundant alignment 84336 84461 | 1885 1760 | 126 126 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_111_length_1885_cov_18.744027
+		Skipping redundant alignment 30784 30909 | 1760 1885 | 126 126 | 100.0 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_111_length_1885_cov_18.744027
+		Skipping redundant alignment 4514422 4514547 | 1885 1760 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_111_length_1885_cov_18.744027
+		Skipping redundant alignment 1315115 1315240 | 1760 1885 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_111_length_1885_cov_18.744027
+		Skipping redundant alignment 5151722 5151847 | 1760 1885 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_111_length_1885_cov_18.744027
+		Skipping redundant alignment 3248946 3249072 | 1885 1759 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_111_length_1885_cov_18.744027
+		Skipping redundant alignment 904955 905081 | 1885 1759 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_111_length_1885_cov_18.744027
+		Skipping redundant alignment 586953 587079 | 1885 1759 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_111_length_1885_cov_18.744027
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 159.0, number of alignments: 2, unaligned bases: 1632
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 253 out of 1885 non-N bases (13.42%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 1885 (number of Ns: 0) and total length of all aligns is 253
+		Alignment: 4514424 4514548 | 1 125 | 125 125 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_111_length_1885_cov_18.744027
+		Alignment: 4298208 4298335 | 1758 1885 | 128 128 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_111_length_1885_cov_18.744027
+		Unaligned bases: 1632
+
+CONTIG: NODE_112_length_1885_cov_2.277019 (1885bp)
+		This contig is unaligned. (1885 bp)
+		Unaligned bases: 1885 (number of Ns: 0)
+
+CONTIG: NODE_113_length_1873_cov_2.446735 (1873bp)
+		This contig is unaligned. (1873 bp)
+		Unaligned bases: 1873 (number of Ns: 0)
+
+CONTIG: NODE_114_length_1860_cov_24.970571 (1860bp)
+Best alignment score: 129.0 (LEN: 129, IDY: 100.00), Total number of alignments: 5
+			Looking for the best set of alignments (out of 5 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 18591 18717 | 1 127 | 127 127 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_114_length_1860_cov_24.970571
+		Skipping redundant alignment 40430 40556 | 127 1 | 127 127 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_114_length_1860_cov_24.970571
+		Skipping redundant alignment 28627 28753 | 1 127 | 127 127 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_114_length_1860_cov_24.970571
+		Skipping redundant alignment 29447 29574 | 1 128 | 128 128 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_114_length_1860_cov_24.970571
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 129.0, number of alignments: 1, unaligned bases: 1731
+		This contig is partially unaligned. (Aligned 129 out of 1860 non-N bases (6.94%))
+		Alignment: 43328 43456 | 129 1 | 129 129 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_114_length_1860_cov_24.970571
+		Unaligned bases: 130 to 1860 (1731)
+
+CONTIG: NODE_115_length_1837_cov_12.987719 (1837bp)
+Best alignment score: 129.0 (LEN: 129, IDY: 100.00), Total number of alignments: 4
+			Looking for the best set of alignments (out of 4 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 17898 18024 | 127 1 | 127 127 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_115_length_1837_cov_12.987719
+		Skipping redundant alignment 44023 44149 | 1 127 | 127 127 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_115_length_1837_cov_12.987719
+		Skipping redundant alignment 41123 41251 | 1 129 | 129 129 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_115_length_1837_cov_12.987719
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 129.0, number of alignments: 1, unaligned bases: 1708
+		This contig is partially unaligned. (Aligned 129 out of 1837 non-N bases (7.02%))
+		Alignment: 27932 28060 | 129 1 | 129 129 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_115_length_1837_cov_12.987719
+		Unaligned bases: 130 to 1837 (1708)
+
+CONTIG: NODE_116_length_1811_cov_4.994062 (1811bp)
+Best alignment score: 492.0 (LEN: 511, IDY: 96.28), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 630.0, number of alignments: 2, unaligned bases: 1139
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 672 out of 1811 non-N bases (37.11%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 1811 (number of Ns: 0) and total length of all aligns is 672
+		Alignment: 3253951 3254461 | 207 717 | 511 511 | 96.28 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_116_length_1811_cov_4.994062
+		Alignment: 3256086 3256246 | 1651 1811 | 161 161 | 96.27 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_116_length_1811_cov_4.994062
+		Unaligned bases: 1139
+
+CONTIG: NODE_117_length_1793_cov_33.890756 (1793bp)
+Best alignment score: 244.0 (LEN: 252, IDY: 96.83), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 244.0, number of alignments: 1, unaligned bases: 1541
+		This contig is partially unaligned. (Aligned 252 out of 1793 non-N bases (14.05%))
+		Alignment: 2293841 2294092 | 1542 1793 | 252 252 | 96.83 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_117_length_1793_cov_33.890756
+		Unaligned bases: 1 to 1541 (1541)
+
+CONTIG: NODE_118_length_1751_cov_1.386084 (1751bp)
+		This contig is unaligned. (1751 bp)
+		Unaligned bases: 1751 (number of Ns: 0)
+
+CONTIG: NODE_119_length_1718_cov_6.420490 (1718bp)
+Best alignment score: 481.0 (LEN: 493, IDY: 97.57), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 846.0, number of alignments: 2, unaligned bases: 760
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 958 out of 1718 non-N bases (55.76%))
+			Real Alignment 1: 3256714 3257178 | 1 465 | 465 465 | 96.99 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_119_length_1718_cov_6.420490
+			  Extensive misassembly (relocation, inconsistency = -3498) between these two alignments
+			Real Alignment 2: 3254441 3254933 | 1226 1718 | 493 493 | 97.57 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_119_length_1718_cov_6.420490
+		Unaligned bases: 760
+
+CONTIG: NODE_120_length_1700_cov_15.715830 (1700bp)
+Best alignment score: 127.0 (LEN: 127, IDY: 100.00), Total number of alignments: 18
+			Looking for the best set of alignments (out of 18 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 30784 30908 | 125 1 | 125 125 | 100.0 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_120_length_1700_cov_15.715830
+		Skipping redundant alignment 84337 84461 | 1 125 | 125 125 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_120_length_1700_cov_15.715830
+		Skipping redundant alignment 4514423 4514547 | 1 125 | 125 125 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_120_length_1700_cov_15.715830
+		Skipping redundant alignment 5151722 5151846 | 125 1 | 125 125 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_120_length_1700_cov_15.715830
+		Skipping redundant alignment 1315115 1315239 | 125 1 | 125 125 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_120_length_1700_cov_15.715830
+		Skipping redundant alignment 4298209 4298334 | 126 1 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_120_length_1700_cov_15.715830
+		Skipping redundant alignment 904956 905081 | 1 126 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_120_length_1700_cov_15.715830
+		Skipping redundant alignment 3248947 3249072 | 1 126 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_120_length_1700_cov_15.715830
+		Skipping redundant alignment 904027 904153 | 1574 1700 | 127 127 | 96.06 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_120_length_1700_cov_15.715830
+		Skipping redundant alignment 4299137 4299263 | 1700 1574 | 127 127 | 96.06 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_120_length_1700_cov_15.715830
+		Skipping redundant alignment 3248018 3248144 | 1574 1700 | 127 127 | 96.06 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_120_length_1700_cov_15.715830
+		Skipping redundant alignment 83408 83534 | 1574 1700 | 127 127 | 96.06 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_120_length_1700_cov_15.715830
+		Skipping redundant alignment 1316042 1316168 | 1700 1574 | 127 127 | 96.06 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_120_length_1700_cov_15.715830
+		Skipping redundant alignment 4513494 4513620 | 1574 1700 | 127 127 | 96.06 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_120_length_1700_cov_15.715830
+		Skipping redundant alignment 31711 31837 | 1700 1574 | 127 127 | 96.06 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_120_length_1700_cov_15.715830
+		Skipping redundant alignment 5152649 5152775 | 1700 1574 | 127 127 | 96.06 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_120_length_1700_cov_15.715830
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 164.0, number of alignments: 2, unaligned bases: 1446
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 254 out of 1700 non-N bases (14.94%))
+			Warning! This contig is more unaligned than misassembled. Contig length is 1700 (number of Ns: 0) and total length of all aligns is 254
+		Alignment: 586954 587080 | 1 127 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_120_length_1700_cov_15.715830
+		Alignment: 586025 586151 | 1574 1700 | 127 127 | 96.06 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_120_length_1700_cov_15.715830
+		Unaligned bases: 1446
+
+CONTIG: NODE_121_length_1640_cov_14.200264 (1640bp)
+Best alignment score: 1633.9 (LEN: 1640, IDY: 99.63), Total number of alignments: 1
+		One align captures most of this contig: 2903869 2905508 | 1640 1 | 1640 1640 | 99.63 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_121_length_1640_cov_14.200264
+
+CONTIG: NODE_122_length_1563_cov_34.499304 (1563bp)
+Best alignment score: 707.0 (LEN: 732, IDY: 96.58), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 707.0, number of alignments: 1, unaligned bases: 831
+		This contig is partially unaligned. (Aligned 732 out of 1563 non-N bases (46.83%))
+		Alignment: 100700 101431 | 1436 705 | 732 732 | 96.58 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_122_length_1563_cov_34.499304
+		Unaligned bases: 1 to 704 (704)
+		Unaligned bases: 1437 to 1563 (127)
+
+CONTIG: NODE_123_length_1539_cov_4.415014 (1539bp)
+Best alignment score: 1539.0 (LEN: 1539, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 78180 79718 | 1539 1 | 1539 1539 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_123_length_1539_cov_4.415014
+
+CONTIG: NODE_124_length_1528_cov_14.489650 (1528bp)
+Best alignment score: 211.0 (LEN: 221, IDY: 95.48), Total number of alignments: 10
+			Looking for the best set of alignments (out of 10 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 10257 10461 | 205 1 | 205 205 | 95.12 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_124_length_1528_cov_14.489650
+		Skipping redundant alignment 4513494 4513714 | 221 1 | 221 221 | 95.48 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_124_length_1528_cov_14.489650
+		Skipping redundant alignment 904027 904247 | 221 1 | 221 221 | 95.48 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_124_length_1528_cov_14.489650
+		Skipping redundant alignment 5152555 5152775 | 1 221 | 221 221 | 95.48 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_124_length_1528_cov_14.489650
+		Skipping redundant alignment 31617 31837 | 1 221 | 221 221 | 95.48 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_124_length_1528_cov_14.489650
+		Skipping redundant alignment 3248018 3248238 | 221 1 | 221 221 | 95.48 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_124_length_1528_cov_14.489650
+		Skipping redundant alignment 4299043 4299263 | 1 221 | 221 221 | 95.48 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_124_length_1528_cov_14.489650
+		Skipping redundant alignment 1315948 1316168 | 1 221 | 221 221 | 95.48 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_124_length_1528_cov_14.489650
+		Skipping redundant alignment 83408 83628 | 221 1 | 221 221 | 95.48 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_124_length_1528_cov_14.489650
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 211.0, number of alignments: 1, unaligned bases: 1307
+		This contig is partially unaligned. (Aligned 221 out of 1528 non-N bases (14.46%))
+		Alignment: 586025 586245 | 221 1 | 221 221 | 95.48 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_124_length_1528_cov_14.489650
+		Unaligned bases: 222 to 1528 (1307)
+
+CONTIG: NODE_125_length_1456_cov_8.583145 (1456bp)
+Best alignment score: 127.0 (LEN: 127, IDY: 100.00), Total number of alignments: 5
+			Looking for the best set of alignments (out of 5 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 28628 28753 | 1 126 | 126 126 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_125_length_1456_cov_8.583145
+		Skipping redundant alignment 18592 18717 | 1 126 | 126 126 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_125_length_1456_cov_8.583145
+		Skipping redundant alignment 43330 43455 | 126 1 | 126 126 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_125_length_1456_cov_8.583145
+		Skipping redundant alignment 29448 29573 | 1 126 | 126 126 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_125_length_1456_cov_8.583145
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 127.0, number of alignments: 1, unaligned bases: 1329
+		This contig is partially unaligned. (Aligned 127 out of 1456 non-N bases (8.72%))
+		Alignment: 40429 40555 | 127 1 | 127 127 | 100.0 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_125_length_1456_cov_8.583145
+		Unaligned bases: 128 to 1456 (1329)
+
+CONTIG: NODE_126_length_1445_cov_28.657815 (1445bp)
+Best alignment score: 1439.9 (LEN: 1445, IDY: 99.65), Total number of alignments: 6
+		This contig has 6 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+			Alignment: 1518186 1519630 | 1445 1 | 1445 1445 | 99.65 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_126_length_1445_cov_28.657815
+			Skipping alignment 2150024 2151468 | 1445 1 | 1445 1445 | 99.65 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_126_length_1445_cov_28.657815
+			Skipping alignment 941068 942512 | 1 1445 | 1445 1445 | 99.65 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_126_length_1445_cov_28.657815
+			Skipping alignment 5077410 5078854 | 1 1445 | 1445 1445 | 99.65 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_126_length_1445_cov_28.657815
+			Skipping alignment 391943 393387 | 1 1445 | 1445 1445 | 99.65 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_126_length_1445_cov_28.657815
+			Skipping alignment 1447823 1449267 | 1445 1 | 1445 1445 | 99.65 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_126_length_1445_cov_28.657815
+
+CONTIG: NODE_127_length_1339_cov_55.506601 (1339bp)
+		This contig is unaligned. (1339 bp)
+		Unaligned bases: 1339 (number of Ns: 0)
+
+CONTIG: NODE_128_length_1321_cov_7.902848 (1321bp)
+Best alignment score: 127.0 (LEN: 127, IDY: 100.00), Total number of alignments: 9
+			Looking for the best set of alignments (out of 9 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 586953 587078 | 1 126 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_128_length_1321_cov_7.902848
+		Skipping redundant alignment 3248946 3249071 | 1 126 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_128_length_1321_cov_7.902848
+		Skipping redundant alignment 4298210 4298335 | 126 1 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_128_length_1321_cov_7.902848
+		Skipping redundant alignment 904955 905080 | 1 126 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_128_length_1321_cov_7.902848
+		Skipping redundant alignment 5151722 5151847 | 126 1 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_128_length_1321_cov_7.902848
+		Skipping redundant alignment 1315114 1315240 | 127 1 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_128_length_1321_cov_7.902848
+		Skipping redundant alignment 4514422 4514548 | 1 127 | 127 127 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_128_length_1321_cov_7.902848
+		Skipping redundant alignment 30783 30909 | 127 1 | 127 127 | 100.0 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_128_length_1321_cov_7.902848
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 127.0, number of alignments: 1, unaligned bases: 1194
+		This contig is partially unaligned. (Aligned 127 out of 1321 non-N bases (9.61%))
+		Alignment: 84336 84462 | 1 127 | 127 127 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_128_length_1321_cov_7.902848
+		Unaligned bases: 128 to 1321 (1194)
+
+CONTIG: NODE_129_length_1195_cov_5.187266 (1195bp)
+Best alignment score: 1190.0 (LEN: 1195, IDY: 99.58), Total number of alignments: 1
+		One align captures most of this contig: 3255052 3256246 | 1 1195 | 1195 1195 | 99.58 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_129_length_1195_cov_5.187266
+
+CONTIG: NODE_130_length_1192_cov_2.291080 (1192bp)
+		This contig is unaligned. (1192 bp)
+		Unaligned bases: 1192 (number of Ns: 0)
+
+CONTIG: NODE_131_length_1046_cov_2.023939 (1046bp)
+		This contig is unaligned. (1046 bp)
+		Unaligned bases: 1046 (number of Ns: 0)
+
+CONTIG: NODE_132_length_1002_cov_14.038857 (1002bp)
+Best alignment score: 749.0 (LEN: 751, IDY: 99.73), Total number of alignments: 9
+			Looking for the best set of alignments (out of 9 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1315000 1315114 | 1002 888 | 115 115 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_132_length_1002_cov_14.038857
+		Skipping redundant alignment 4090355 4090480 | 877 1002 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_132_length_1002_cov_14.038857
+		Skipping redundant alignment 2561838 2561963 | 1002 877 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_132_length_1002_cov_14.038857
+		Skipping redundant alignment 3115626 3115751 | 877 1002 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_132_length_1002_cov_14.038857
+		Skipping redundant alignment 2052464 2052589 | 877 1002 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_132_length_1002_cov_14.038857
+		Skipping redundant alignment 80828 80954 | 876 1002 | 127 127 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_132_length_1002_cov_14.038857
+		Skipping redundant alignment 34291 34417 | 1002 876 | 127 127 | 100.0 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_132_length_1002_cov_14.038857
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 827.0, number of alignments: 2, unaligned bases: 122
+		This contig is misassembled.
+			Real Alignment 1: 28754 29504 | 751 1 | 751 751 | 99.73 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_132_length_1002_cov_14.038857
+			  Extensive misassembly (translocation) between these two alignments
+			Real Alignment 2: 2682212 2682340 | 1002 874 | 129 129 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_132_length_1002_cov_14.038857
+
+CONTIG: NODE_133_length_944_cov_1.913097 (944bp)
+		This contig is unaligned. (944 bp)
+		Unaligned bases: 944 (number of Ns: 0)
+
+CONTIG: NODE_134_length_938_cov_186.852035 (938bp)
+		This contig is unaligned. (938 bp)
+		Unaligned bases: 938 (number of Ns: 0)
+
+CONTIG: NODE_135_length_907_cov_12.174359 (907bp)
+Best alignment score: 126.0 (LEN: 126, IDY: 100.00), Total number of alignments: 9
+			Looking for the best set of alignments (out of 9 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 4514422 4514547 | 1 126 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_135_length_907_cov_12.174359
+		Skipping redundant alignment 4298210 4298335 | 126 1 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_135_length_907_cov_12.174359
+		Skipping redundant alignment 30784 30909 | 126 1 | 126 126 | 100.0 | NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence NODE_135_length_907_cov_12.174359
+		Skipping redundant alignment 904955 905080 | 1 126 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_135_length_907_cov_12.174359
+		Skipping redundant alignment 84336 84461 | 1 126 | 126 126 | 100.0 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_135_length_907_cov_12.174359
+		Skipping redundant alignment 5151722 5151847 | 126 1 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_135_length_907_cov_12.174359
+		Skipping redundant alignment 3248946 3249071 | 1 126 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_135_length_907_cov_12.174359
+		Skipping redundant alignment 586953 587078 | 1 126 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_135_length_907_cov_12.174359
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 126.0, number of alignments: 1, unaligned bases: 781
+		This contig is partially unaligned. (Aligned 126 out of 907 non-N bases (13.89%))
+		Alignment: 1315115 1315240 | 126 1 | 126 126 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_135_length_907_cov_12.174359
+		Unaligned bases: 127 to 907 (781)
+
+CONTIG: NODE_136_length_907_cov_3.797436 (907bp)
+		This contig is unaligned. (907 bp)
+		Unaligned bases: 907 (number of Ns: 0)
+
+CONTIG: NODE_137_length_856_cov_59.791495 (856bp)
+Best alignment score: 726.0 (LEN: 730, IDY: 99.45), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 726.0, number of alignments: 1, unaligned bases: 126
+		Alignment: 11771 12500 | 1 730 | 730 730 | 99.45 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_137_length_856_cov_59.791495
+
+CONTIG: NODE_138_length_788_cov_161.700454 (788bp)
+Best alignment score: 788.0 (LEN: 788, IDY: 100.00), Total number of alignments: 8
+		This contig has 8 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+			Alignment: 212967 213754 | 788 1 | 788 788 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_138_length_788_cov_161.700454
+			Skipping alignment 121098 121885 | 788 1 | 788 788 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_138_length_788_cov_161.700454
+			Skipping alignment 4845116 4845903 | 1 788 | 788 788 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_138_length_788_cov_161.700454
+			Skipping alignment 1002585 1003372 | 788 1 | 788 788 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_138_length_788_cov_161.700454
+			Skipping alignment 627737 628524 | 788 1 | 788 788 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_138_length_788_cov_161.700454
+			Skipping alignment 16653 17440 | 788 1 | 788 788 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_138_length_788_cov_161.700454
+			Skipping alignment 258096 258883 | 788 1 | 788 788 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_138_length_788_cov_161.700454
+			Skipping alignment 4033139 4033926 | 1 788 | 788 788 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_138_length_788_cov_161.700454
+
+CONTIG: NODE_139_length_781_cov_1.195719 (781bp)
+		This contig is unaligned. (781 bp)
+		Unaligned bases: 781 (number of Ns: 0)
+
+CONTIG: NODE_140_length_780_cov_27.350689 (780bp)
+Best alignment score: 779.0 (LEN: 780, IDY: 99.87), Total number of alignments: 3
+		This contig has 3 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+			Alignment: 41951 42730 | 1 780 | 780 780 | 99.87 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_140_length_780_cov_27.350689
+			Skipping alignment 50048 50827 | 1 780 | 780 780 | 99.87 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_140_length_780_cov_27.350689
+			Skipping alignment 29974 30753 | 1 780 | 780 780 | 99.87 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_140_length_780_cov_27.350689
+
+CONTIG: NODE_141_length_767_cov_52.834375 (767bp)
+Best alignment score: 759.0 (LEN: 767, IDY: 98.96), Total number of alignments: 3
+		This contig has 3 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+			Alignment: 1003545 1004309 | 767 1 | 765 767 | 98.96 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_141_length_767_cov_52.834375
+			Skipping alignment 213927 214692 | 767 1 | 766 767 | 98.17 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_141_length_767_cov_52.834375
+			Skipping alignment 122058 122822 | 767 1 | 765 767 | 98.17 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_141_length_767_cov_52.834375
+
+CONTIG: NODE_142_length_762_cov_2.231496 (762bp)
+		This contig is unaligned. (762 bp)
+		Unaligned bases: 762 (number of Ns: 0)
+
+CONTIG: NODE_143_length_734_cov_4.255354 (734bp)
+Best alignment score: 734.0 (LEN: 734, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 3249233 3249966 | 734 1 | 734 734 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_143_length_734_cov_4.255354
+
+CONTIG: NODE_144_length_721_cov_27.984848 (721bp)
+Best alignment score: 705.0 (LEN: 721, IDY: 97.78), Total number of alignments: 1
+		One align captures most of this contig: 3256120 3256840 | 1 721 | 721 721 | 97.78 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_144_length_721_cov_27.984848
+
+CONTIG: NODE_145_length_689_cov_39.233096 (689bp)
+Best alignment score: 674.0 (LEN: 689, IDY: 97.83), Total number of alignments: 4
+		This contig has 4 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+			Alignment: 259056 259736 | 1 689 | 681 689 | 97.83 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_145_length_689_cov_39.233096
+			Skipping alignment 17613 18293 | 1 689 | 681 689 | 97.83 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_145_length_689_cov_39.233096
+			Skipping alignment 628697 629377 | 1 689 | 681 689 | 97.54 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_145_length_689_cov_39.233096
+			Skipping alignment 4032286 4032966 | 689 1 | 681 689 | 97.54 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_145_length_689_cov_39.233096
+
+CONTIG: NODE_146_length_647_cov_1.630769 (647bp)
+		This contig is unaligned. (647 bp)
+		Unaligned bases: 647 (number of Ns: 0)
+
+CONTIG: NODE_147_length_607_cov_178.579167 (607bp)
+Best alignment score: 606.0 (LEN: 607, IDY: 99.84), Total number of alignments: 8
+		This contig has 8 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+			Alignment: 4841823 4842429 | 607 1 | 607 607 | 99.84 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_147_length_607_cov_178.579167
+			Skipping alignment 4029701 4030307 | 607 1 | 607 607 | 99.84 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_147_length_607_cov_178.579167
+			Skipping alignment 124801 125407 | 1 607 | 607 607 | 99.84 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_147_length_607_cov_178.579167
+			Skipping alignment 631356 631962 | 1 607 | 607 607 | 99.84 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_147_length_607_cov_178.579167
+			Skipping alignment 1006288 1006894 | 1 607 | 607 607 | 99.84 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_147_length_607_cov_178.579167
+			Skipping alignment 261715 262321 | 1 607 | 607 607 | 99.84 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_147_length_607_cov_178.579167
+			Skipping alignment 20272 20878 | 1 607 | 607 607 | 99.84 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_147_length_607_cov_178.579167
+			Skipping alignment 216671 217277 | 1 607 | 607 607 | 99.84 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_147_length_607_cov_178.579167
+
+CONTIG: NODE_148_length_601_cov_2.913502 (601bp)
+Best alignment score: 528.0 (LEN: 529, IDY: 99.81), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 545.5, number of alignments: 2, unaligned bases: 0
+		This contig is misassembled.
+			Excluding internal overlap of size 9 between Alignment 1 and 2: 3249072 3249152 | 521 601 | 81 81 --> 3249081 3249152 | 530 601 | 72 72
+			Real Alignment 1: 3247486 3248014 | 1 529 | 529 529 | 99.81 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_148_length_601_cov_2.913502
+			  Extensive misassembly (relocation, inconsistency = 1066) between these two alignments
+			Real Alignment 2: 3249081 3249152 | 530 601 | 72 72 | 100.0 | NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome NODE_148_length_601_cov_2.913502
+
+CONTIG: NODE_149_length_595_cov_8.547009 (595bp)
+Best alignment score: 593.0 (LEN: 595, IDY: 99.66), Total number of alignments: 2
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+			Alignment: 29378 29972 | 595 1 | 595 595 | 99.66 | NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence NODE_149_length_595_cov_8.547009
+			Skipping alignment 41355 41949 | 595 1 | 595 595 | 99.5 | NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence NODE_149_length_595_cov_8.547009
+
+CONTIG: NODE_150_length_591_cov_1.711207 (591bp)
+		This contig is unaligned. (591 bp)
+		Unaligned bases: 591 (number of Ns: 0)
+
+CONTIG: NODE_151_length_517_cov_0.579487 (517bp)
+		This contig is unaligned. (517 bp)
+		Unaligned bases: 517 (number of Ns: 0)
+
+Analyzing coverage...
+Writing SNPs into /home/akapanina/bioinf/Klebsiella/kpn1053/quast_results/results_2018_10_16_23_31_24/contigs_reports/minimap_output/contigs.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /home/akapanina/bioinf/Klebsiella/kpn1053/quast_results/results_2018_10_16_23_31_24/contigs_reports/minimap_output/contigs.used_snps.gz
+
+Results:
+	Local Misassemblies: 50
+	Misassemblies: 60
+		Relocations: 57
+		Translocations: 3
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 0
+	Scaffold gap local misassemblies: 0
+	Misassembled Contigs: 37
+	Misassembled Contig Bases: 3670613
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 24 + 74 part
+Half Unaligned Contigs with Misassemblies: 10
+Unaligned Contig Bases: 650226
+
+Ambiguously Mapped Contigs: 47
+Total Bases in Ambiguously Mapped Contigs: 2164788
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 4900519
+
+	SNPs: 32094
+	Insertions: 1335
+	Deletions: 1338
+

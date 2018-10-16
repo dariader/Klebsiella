@@ -1,0 +1,20 @@
+reference chromosomes:
+	NC_016847.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS5__complete_sequence (total length: 3353 bp, total length without N's: 3353 bp, maximal covered length: 493 bp)
+	NC_016846.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS2__complete_sequence (total length: 111195 bp, total length without N's: 111195 bp, maximal covered length: 65595 bp)
+	NC_016838.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS1__complete_sequence (total length: 122799 bp, total length without N's: 122799 bp, maximal covered length: 2640 bp)
+	NC_016840.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS4__complete_sequence (total length: 3751 bp, total length without N's: 3751 bp, maximal covered length: 0 bp)
+	NC_016839.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS3__complete_sequence (total length: 105974 bp, total length without N's: 105974 bp, maximal covered length: 4447 bp)
+	NC_016841.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_plasmid_pKPHS6__complete_sequence (total length: 1308 bp, total length without N's: 1308 bp, maximal covered length: 0 bp)
+	NC_016845.1_Klebsiella_pneumoniae_subsp._pneumoniae_HS11286_chromosome__complete_genome (total length: 5333942 bp, total length without N's: 5333941 bp, maximal covered length: 4827344 bp)
+
+total genome size: 5682322
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+contigs                  | 86.242    | 1.002       | 147       | -         | -         | -         | -         |

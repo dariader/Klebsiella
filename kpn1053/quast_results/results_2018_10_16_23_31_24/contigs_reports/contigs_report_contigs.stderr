@@ -1,0 +1,10 @@
+[M::mm_idx_gen::0.159*1.01] collected minimizers
+[M::mm_idx_gen::0.192*1.01] sorted minimizers
+[M::main::0.192*1.01] loaded/built the index for 7 target sequence(s)
+[M::mm_mapopt_update::0.200*1.01] mid_occ = 200
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 7
+[M::mm_idx_stat::0.208*1.01] distinct minimizers: 556663 (99.29% are singletons); average occurrences: 1.020; average spacing: 10.003
+[M::worker_pipeline::1.410*1.00] mapped 151 sequences
+[M::main] Version: 2.11-r797
+[M::main] CMD: /home/akapanina/bioinf/quast-5.0.0/quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t 1 /home/akapanina/bioinf/Klebsiella/kpn1053/quast_results/results_2018_10_16_23_31_24/quast_corrected_input/GCF_000240185.1_ASM24018v2_genomic.fna /home/akapanina/bioinf/Klebsiella/kpn1053/quast_results/results_2018_10_16_23_31_24/quast_corrected_input/contigs.fasta
+[M::main] Real time: 1.415 sec; CPU: 1.416 sec
