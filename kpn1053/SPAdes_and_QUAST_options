@@ -1,3 +1,6 @@
+Trimmomatic:
+TrimmomaticPE -phred33 SRR6480152_1.fastq SRR6480152_2.fastq SRR6480152_1_Paired.fastq SRR6480152_1_Unpaired.fastq SRR6480152_2_Paired.fastq  SRR6480152_2_Unpaired.fastq  ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 SLIDINGWINDOW:4:20 MINLEN:36
+
 SPAdes:
 ~/bioinf/SPAdes-3.13.0-Linux/bin/spades.py --careful -1 SRR6480154_1_Paired.fastq -2 SRR6480154_2_Paired.fastq -o spades_output
 
