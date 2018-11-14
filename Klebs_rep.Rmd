@@ -1,0 +1,123 @@
+---
+title: "Klebs_rep"
+author: "Daria"
+date: "November 14, 2018"
+output: html_document
+---
+
+
+##PCA по SNP Klebsiella pneumonica. 
+Нужны эти пакеты
+
+```{r eval=FALSE, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+library("devtools")
+install_github("zhengxwen/gdsfmt")
+install_github("zhengxwen/SNPRelate")
+install.packages('vcfR') 
+
+```
+
+Откроем библиотеки
+
+```{r message=FALSE}
+
+library("devtools")
+library(gdsfmt)
+library(SNPRelate)
+library(calibrate)
+
+library(vcfR)
+```
+
+
+У нас было 22 файла после SNP-коллинга, мы их свернули в один, предварительно удалив шапку и заменив название колонки sample1 на соответствующее название штамма. 
+
+
+```{bash eval=FALSE, include=FALSE}
+
+ #!/bin/Bash
+
+for F in *.vcf;
+ do bcftools view "$F" -Oz -o "$F.gz";
+ done
+
+```
+
+
+индексируем
+```{bash eval=FALSE, include=FALSE}
+#!/bin/Bash
+
+for F in *.gz;
+   do bcftools index $F;
+   done
+
+```
+
+
+Запихиваем проиндексированные vcf в один файл
+
+```{bash eval=FALSE, include=FALSE}
+
+bcftools merge --force-samples *.gz >> COMBINED.vcf
+
+```
+
+
+Посмотрим что получилось
+```{r message=FALSE, warning=FALSE}
+# the VCF file
+vcf.fn <- "/home/daria/Daria/BI/Klebs/vcf/COMBINED.vcf"
+
+snpgdsVCF2GDS(vcf.fn, "CCOMBO.gds")
+
+```
+
+#Поехали
+
+```{r message=FALSE, warning=FALSE}
+# open an example dataset (HapMap)
+genofile <- snpgdsOpen("/home/daria/Daria/BI/Klebs/CCOMBO.gds") ## open the gate
+genofile
+
+class(genofile)
+# "SNPGDSFileClass" "gds.class"
+
+pca <- snpgdsPCA(genofile, sample.id = NULL, snp.id = NULL, autosome.only = FALSE,
+	remove.monosnp = FALSE, maf = NaN, missing.rate = NaN, eigen.cnt = 32,
+	num.thread = 6, bayesian = FALSE, need.genmat = FALSE,
+	genmat.only = FALSE, verbose = TRUE)
+
+tab <- data.frame(sample.id = pca$sample.id, EV1 = pca$eigenvect[,1], EV2 = pca$eigenvect[,2],stringsAsFactors = FALSE)
+head(tab) ## слишком мелкие значения
+
+
+
+
+
+```
+##Может быть нормализовать?
+
+```{r message=FALSE, warning=FALSE}
+
+library(plotly)
+ plot_ly(tab, x = ~log2(EV1), y = ~log2(EV2), text = ~sample.id, title = "log2" ) 
+ plot_ly(tab, x = ~log10(EV1), y = ~log10(EV2), text = ~sample.id, title = "log10" ) 
+
+
+
+
+```
+
+Распределение SNP по позициям
+```{r}
+
+CORR <- snpgdsPCACorr(pca, genofile, eig.which=1:4)
+#plot(abs(CORR$snpcorr[3,]), y = NULL, xlab="SNP Index", ylab="PC 3")
+#не поддерживается почему-то при knit
+# close the gate
+snpgdsClose(genofile)
+
+```
+
+
