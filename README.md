@@ -12,11 +12,6 @@ https://drive.google.com/open?id=15CkSm6dYq4XDlb-nh8lvOGkUvM0_YmGC
 
 -------- Текущие вопросы
 
-Этот метод был применен в статье 2015 года для анлиза корового генома. Определение корового генома -  следующий этап нашего проекта: 
-
-The ORFs were translated into protein using #EMBOSS and clustered at the ≤30% amino acid	homology level using #CD-­‐HIT (24), resulting in 29,886 protein/gene clusters. (Alternative	clustering at ≤10%, ≤20% or ≤40% homology resulted in 46718, 37609 or 29779 clusters,	respectively; hence 30% was taken as the point of inflection.) 
-
-These data were then processed	to generate a binary gene content matrix in which the presence of a gene is defined as >90%	coverage of at least one ORF belonging to the corresponding protein cluster. Hence genomes	that encode alleles with ≥30% amino acid homology across the length of the sequence are	considered to encode the same functional gene in our analysis.	
-Pangenome accumulation curves were generated for  K. pneumoniae and separately for each	phylogroup using the  vegan package in R ( Fig. 1b) 
-
-Common accessory genes were defined as those found in 5-­‐95% of  K. pneumoniae genomes.	Principal components analysis (PCA) of the binary gene content matrix for these genes was	performed using the  prcomp function in R ( Fig. 1c):	
+1. Нормализация данных
+2. Центрирование данных
+3. Определение корового генома (см. ниже)
